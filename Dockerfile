@@ -1,5 +1,5 @@
 # Use Node.js LTS image
-FROM node:20-alpine
+FROM node:22-alpine
 
 # Set working directory
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN yarn build
 
 # Expose port
-EXPOSE 9999
+EXPOSE 5000
 
 # Start the app
 CMD ["yarn", "start"]
