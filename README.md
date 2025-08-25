@@ -5,7 +5,7 @@
   anaflous.com - v1
 </h1>
 <p align="center">
-  The first iteration of <a href="https://anaflous.com" target="_blank">anaflous.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of <a href="https://thamjidthachu.dev" target="_blank">anaflous.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ I'd like to highlight that the `This website can't be reached` trick featured on
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [🎨 Color Reference](#references)
+- [:art: Color Reference](#references)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -55,16 +55,15 @@ Why tailwindcss? Because TailwindCSS is a framework which reduces a lot of styli
 
 Since i integrated some of my project into my website i'll i mention most of technologies & libraries that i used.
 
-- Next.js
-- Nodejs
-- TypeScript
-- Tailwind CSS
-- framer-motion
-- Google API
-- cookie-cutter
-- react-leaflet
-- Vercel Analytics
-- Google Analytics
+- Python
+- Django
+- Flask
+- MySQL/PostgreSQL
+- Elastic Search
+- Docker
+- Celery
+- Redis
+- RabbitMQ
 
 ##### Note : 
 ##### You can find the rest of packages in the file ```/package.json```
@@ -77,7 +76,7 @@ Since i integrated some of my project into my website i'll i mention most of tec
 1. Clone the repo CLI
 
    ```sh
-   git clone https://github.com/hktitof/my-website.git
+   git clone https://github.com/thamjidthachu/my-website.git
    ```
 
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
