@@ -87,7 +87,7 @@ const CompaniesBar = props => {
     >
       {/* // ? left bar Holder */}
       <div
-        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[390px] translate-y-1 md:w-0.5  
+        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[150px] translate-y-1 md:w-0.5  
         rounded md:order-1 order-2  "
       >
         {/* // ? animated left bar */}
@@ -112,8 +112,8 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="Flycatch Infotech"
-            BarPosition={36}
-            BarAvobePosition={298}
+            BarPosition={45}
+            BarAvobePosition={150}
             DescriptionJob="Flycatch"
             CompanyNameBackgroundColorGreen={[false, true, false]}
             setDescriptionJob={props.setDescriptionJob}
@@ -121,15 +121,15 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="Quest Innovative Solutions"
-            BarPosition={80}
-            BarAvobePosition={596}
+            BarPosition={100}
+            BarAvobePosition={300}
             DescriptionJob="Quest"
             CompanyNameBackgroundColorGreen={[false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
-          <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
+          <motion.div animate={{ x: barAbovePosition }} className="w-[150px] h-0.5 rounded bg-AAsecondary"></motion.div>
         </div>
       </div>
     </div>
