@@ -29,7 +29,7 @@ export default function SomethingIveBuilt() {
 
       <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         {/* // TODO : to here  */}
-        {/* // ?  Project  1 Ens Vision */}
+        {/* // ?  Project 1 Hrms Aqary */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
@@ -37,24 +37,24 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://www.vision.io"} target="_blank" rel="noreferrer">
+              <a href={"https://people.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/hrmsaqary.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
           {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+          <div className=" md:-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/hrmsaqary.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -64,35 +64,37 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Vision.io</span>
-                <a href="https://www.vision.io" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.https://people.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    ENS names Marketplace
+                    HRMS - Aqary One
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                  At <span className="text-AAsecondary">Vision</span>, I played a crucial role in developing web3
-                  components for their <span className="text-AAsecondary">web3 application</span> using Next.js and web3
-                  libraries. Our focus was on integrating new features and improving the user interface. One notable
-                  achievement was the release of NameWrapper with <span className="text-AAsecondary">ERC72</span>{" "}
-                  support, enabling users to create <span className="text-AAsecondary">subdomains</span>. This showcased
-                  our commitment to delivering innovative solutions.
+                  At <span className="text-AAsecondary">Aqary Investments and Development</span>, I played a key role in designing and developing real-time event subscription 
+                  and notification services using <span className="text-AAsecondary">Webhooks and WebSockets</span>, significantly enhancing system responsiveness 
+                  and improving the employee experience. I also developed an <span className="text-AAsecondary">AI-powered</span> HRMS platform that integrated 
+                  ATS resume screening, chatbot support, and biometric attendance automation, leveraging <span className="text-AAsecondary">Flask</span> and an event-driven architecture.
+                  These solutions streamlined HR workflows and showcased our commitment to delivering intelligent, scalable, and user-centric systems.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">ENS domains</span>
-                <span className="pr-4 z-10">ENS names</span>
-                <span className="pr-4 z-10">web3</span>
-                <span className="pr-4 z-10">NFT</span>
-                <span className="pr-4 z-10">ERC72</span>
+                <span className="pr-4 z-10">Python/Flask</span>
+                <span className="pr-4 z-10">PyTorch</span>
+                <span className="pr-4 z-10">Transformers</span>
+                <span className="pr-4 z-10">Google Generative AI</span>
+                <span className="pr-4 z-10">PostgreSQL</span>
+                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">Celery</span>
+                <span className="pr-4 z-10">RabbitMQ/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
-                <a href="https://www.vision.io" target={"_blank"} rel="noreferrer">
+                <a href="https://www.https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -100,7 +102,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - YpredictAI */}
+        {/* // ?  Project 2 - ExploreWorld */}
 
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
@@ -117,7 +119,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+              <a href="https://www.exploreworld.com/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -125,7 +127,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/exploreworld.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -133,10 +135,10 @@ export default function SomethingIveBuilt() {
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full bg-opacity-70 z-0">
-              <div className="relative w-full h-full">
+              <div className="rabsolute py-4  md:grid md:grid-colselative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/exploreworld.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -146,36 +148,39 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.exploreworld.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    YPredict - v1
+                    Explore World
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to lead the development of a token project, which aimed to create a
-                  decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                  project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  <span className="text-AAsecondary"> smart contract</span> and{" "}
-                  <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                  <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale.
+                  I had the opportunity to spearhead the backend development of a travel aggregator platform, leveraging a{" "}
+                  <span className="text-AAsecondary"> microservices architecture</span>. My focus was on integrating{" "}
+                  <span className="text-AAsecondary"> payment gateways</span> and{" "}
+                  <span className="text-AAsecondary"> third-party APIs</span> such as{" "}
+                  <span className="text-AAsecondary"> Elasticsearch</span>, ensuring a{" "}
+                  <span className="text-AAsecondary"> scalable architecture</span> for smooth transactions and an enhanced{" "}
+                  <span className="text-AAsecondary"> user experience</span>.
                 </p>
+
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Token</span>
-                <span className="pr-4 z-10">ERC20</span>
-                <span className="pr-4 z-10">Nextjs</span>
-                <span className="pr-4 z-10">Smart contract</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10">Python/Django</span>
+                <span className="pr-4 z-10">Elastic Search</span>
+                <span className="pr-4 z-10">Django Rest Framework</span>
+                <span className="pr-4 z-10">Postgres</span>
+                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
-                  <GithubIcon link="https://github.com/hktitof/Ypredict" />
-                  <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+                  <GithubIcon link="https://github.com/flycatchinfotech/explore-world" />
+                  <a href="https://www.exploreworld.com/" target={"_blank"} rel="noreferrer">
                     <ExternalLink url={""} router={router} />
                   </a>
                 </div>
@@ -184,7 +189,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - FeverTokens */}
+        {/* // ?  Project 3 - Wearlay */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
@@ -192,13 +197,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://www.fevertokens.io/"} target="_blank" rel="noreferrer">
+              <a href={"https://www.wearlay.in/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/img/feverTokens.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/wearlay.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -209,7 +214,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/feverTokens.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/feverTokens.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -219,41 +224,44 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://www.fevertokens.io/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.wearlay.in/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    FeverTokens
+                    Wearlay
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  I played a key role in developing an NFT marketplace project, focused on creating a decentralized
-                  platform with scalable <span className="text-AAsecondary"> smart contracts</span> and{" "}
-                  <span className="text-AAsecondary"> blockchain technology</span>. This platform,{" "}
-                  <span className="text-AAsecondary"> FeverTokens - v2</span>, was showcased at the VivaTech2022 event
-                  in Paris, providing builders with tools to develop scalable Web3 applications.
+                  I led the backend development of a CRM & Inventory system, built with{" "}
+                  <span className="text-AAsecondary"> Django</span> and{" "}
+                  <span className="text-AAsecondary"> Django REST Framework</span>. The platform automated{" "}
+                  <span className="text-AAsecondary"> lead workflows</span> and optimized{" "}
+                  <span className="text-AAsecondary"> warehouse management</span>, while a customized{" "}
+                  <span className="text-AAsecondary"> Django Admin</span> with integrated{" "}
+                  <span className="text-AAsecondary"> analytics</span> enabled data-driven decision making for improved business operations.
                 </p>
+
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Tokenization</span>
-                <span className="pr-4 z-10">ERC721</span>
-                <span className="pr-4 z-10">Solidity</span>
-                <span className="pr-4 z-10">Smart Contracts</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10">Python/Django</span>
+                <span className="pr-4 z-10">Django Rest Framework</span>
+                <span className="pr-4 z-10">PostgresSQL</span>
+                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
-                <a href="https://www.fevertokens.io/" target={"_blank"} rel="noreferrer">
+                <a href="https://www.wearlay.in/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
             </div>
           </div>
         </div>
-        {/* // ?  Project  3*/}
+        {/* // ?  Project 4 University Portals */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
@@ -261,7 +269,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/typing"}>
+              <Link href="https://my.um.edu.sa/">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -269,7 +277,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/almaarefa.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -280,7 +288,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/almaarefa.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -290,38 +298,49 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/typing"}>
+                <Link href="https://my.um.edu.sa/">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Speed Typing
+                    Al Maarefa
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This project aim to help you to improve your <span className="text-AAsecondary"> typing </span> by
-                  tracking your progress in <span className="text-AAsecondary"> each round</span> and give you a{" "}
-                  <span className="text-AAsecondary"> score</span> based on your typing speed and accuracy through a
-                  table of <span className="text-AAsecondary"> statistics</span>.
+                  I led the backend development of a role-based{" "}
+                  <span className="text-AAsecondary"> academic platform</span> designed for{" "}
+                  <span className="text-AAsecondary"> students</span>,{" "}
+                  <span className="text-AAsecondary"> instructors</span>, and{" "}
+                  <span className="text-AAsecondary"> admins</span>. The system included{" "}
+                  <span className="text-AAsecondary"> academic tracking</span>,{" "}
+                  <span className="text-AAsecondary"> messaging</span>, and{" "}
+                  <span className="text-AAsecondary"> payment management</span>. I also developed an{" "}
+                  <span className="text-AAsecondary"> online admission system</span>, centralizing{" "}
+                  <span className="text-AAsecondary"> registration</span>,{" "}
+                  <span className="text-AAsecondary"> document upload</span>, and{" "}
+                  <span className="text-AAsecondary"> interview processes</span>, improving efficiency for both{" "}
+                  <span className="text-AAsecondary"> applicants</span> and{" "}
+                  <span className="text-AAsecondary"> staff</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
+               text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Algorithms</span>
-                <span className="pr-4 z-10">Framer Motion</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
-                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">Python/Django</span>
+                <span className="pr-4 z-10">Django Rest Framework</span>
+                <span className="pr-4 z-10">PostgresSQL</span>
+                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Typing" />
-                <ExternalLink url={"typing"} router={router} />
+                <GithubIcon link="https://github.com/flycatchinfotech/al-maarefa-backend" />
+                <ExternalLink url={"https://my.um.edu.sa/"} router={router} />
               </div>
             </div>
           </div>
         </div>
 
-        {/* // ?  Project 4 */}
+        {/* // ?  Project 5 Away2gether */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
@@ -335,7 +354,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/away2gether.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -346,7 +365,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/away2gether.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -356,41 +375,49 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/userdatapuller"}>
+                <Link href={"https://my.away2gether.com"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    User Data puller
+                    Away2gether
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This project allows you to understand how easy it is to identify and track your browser based on how
-                  it appears to websites. Such as your
-                  <span className="text-AAsecondary"> location</span>,{" "}
-                  <span className="text-AAsecondary">IP Address</span>,{" "}
-                  <span className="text-AAsecondary">{","} software, Hardware</span> and some additional information
-                  with the help of cookies.
+                  I solely developed the backend of a{" "}
+                  <span className="text-AAsecondary"> hospitality platform</span> using{" "}
+                  <span className="text-AAsecondary"> Django</span>,{" "}
+                  <span className="text-AAsecondary"> Django CMS</span>, and{" "}
+                  <span className="text-AAsecondary"> PostgreSQL</span>. The platform enhanced{" "}
+                  <span className="text-AAsecondary"> user experience</span> through{" "}
+                  <span className="text-AAsecondary"> interactive elements</span> built with{" "}
+                  <span className="text-AAsecondary"> AJAX</span> and{" "}
+                  <span className="text-AAsecondary"> JavaScript</span>. I also ensured{" "}
+                  <span className="text-AAsecondary"> scalability</span> and{" "}
+                  <span className="text-AAsecondary"> data integrity</span>, laying the foundation for future{" "}
+                  <span className="text-AAsecondary"> enhancements</span>.
                 </p>
+
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Cookies</span>
-                <span className="pr-4 z-10">Google APi</span>
-                <span className="pr-4 z-10">Data collecting</span>
-                <span className="pr-4 z-10">IP Address</span>
-                <span className="pr-4 z-10">Location</span>
+                <span className="pr-4 z-10">Python/Django</span>
+                <span className="pr-4 z-10">CMS</span>
+                <span className="pr-4 z-10">PostgresSQL</span>
+                <span className="pr-4 z-10">html/css</span>
+                <span className="pr-4 z-10">Javascript</span>
+                <span className="pr-4 z-10">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/DataPuller" />
-                <ExternalLink url={"/userdatapuller"} router={router} />
+                <GithubIcon link="https://github.com/flycatchinfotech/awaytogether-website" />
+                <ExternalLink url={"https://my.away2gether.com"} router={router} />
               </div>
             </div>
           </div>
         </div>
 
-        {/* // ? Project 5 */}
+        {/* // ? Project 6 Redalion */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
@@ -398,7 +425,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+              <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -407,10 +434,10 @@ export default function SomethingIveBuilt() {
               </a>
 
               <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">In initiation...</span>
+                <span className="text-AAsecondary text-xl">On Hold...</span>
               </div>
 
-              <Img src={"/haircut.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/redalion.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -421,12 +448,12 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/haircut.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/redalion.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In initiation...</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">On hold...</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
@@ -434,100 +461,40 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+                <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Haircut Appointment
+                    Redalion
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  It&apos; a barber shop <span className="text-AAsecondary">appointment scheduling</span> & management
-                  software it provides <span className="text-AAsecondary">online scheduling</span>, appointment
-                  reminders, <span className="text-AAsecondary">payments</span>, marketing, and much more! Currently in
-                  the <span className="text-AAsecondary">Initiation phase</span>.
+                  I led the backend development of a platform that links{" "}
+                  <span className="text-AAsecondary"> QR-coded medallions</span> to{" "}
+                  <span className="text-AAsecondary"> digital ancestral profiles</span>, featuring{" "}
+                  <span className="text-AAsecondary"> secure authentication</span> and{" "}
+                  <span className="text-AAsecondary"> profile management</span>. The system was built with a focus on{" "}
+                  <span className="text-AAsecondary"> scalability</span> and{" "}
+                  <span className="text-AAsecondary"> clean code</span>, ensuring a solid foundation for{" "}
+                  <span className="text-AAsecondary"> future enhancements</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Appointment</span>
-                <span className="pr-4 z-10">Management</span>
-                <span className="pr-4 z-10">Scheduling</span>
-                <span className="pr-4 z-10">Booking</span>
+                <span className="pr-4 z-10">Python/Django</span>
+                <span className="pr-4 z-10">PostgresSQL</span>
+                <span className="pr-4 z-10">html/css</span>
+                <span className="pr-4 z-10">Javascript</span>
+                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10">Stripe</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/haircut" />
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* // ?  Project 6 */}
-        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
-          {/* Left image */}
-          <div
-            className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
-          >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
-                <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
+              <GithubIcon link="https://github.com/flycatchinfotech/redalion" />
+              <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
+                <ExternalLink url={""} router={router} />
               </a>
-
-              <Img src={"/CallCenter.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
-            </div>
-          </div>
-
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
-              <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/CallCenter.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
-              </div>
-            </div>
-
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
-            col-span-8 flex flex-col items-start  sm:space-y-3 md:order-1"
-            >
-              <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Call Center Management System
-                  </span>
-                </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left ">
-                  A <span className="text-AAsecondary">JavaFX call center management system</span> project it is used
-                  for receiving or transmitting a large volume of enquiries between the agent and the customer,it
-                  handles the communication between agents & clients it can be used for the both side client & agent
-                  side to handle the messages and issues.
-                </p>
-              </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
-              >
-                <span className="pr-4 z-10">JavaFX</span>
-                <span className="pr-4 z-10">Java Concurrency</span>
-                <span className="pr-4 z-10">MultiThreading</span>
-                <span className="pr-4 z-10">MySQL</span>
-              </ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/CallCenter" />
               </div>
             </div>
           </div>
