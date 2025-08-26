@@ -35,7 +35,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
           <div className="font-Header text-gray-400 text-justify">
             Hey there! I&apos;m Thamjid, an <span className="text-AAsecondary">AI-focused Python Developer</span> who loves
             building scalable and intelligent digital solutions. My journey started with a passion for programming and has
-            grown into over <span className="text-AAsecondary">3 years of professional experience</span> crafting web
+            grown into over <span className="text-AAsecondary">4 years of professional experience</span> crafting web
             applications and data-driven platforms using Django, Flask, and modern AI tools.
           </div>
           <div className="font-Header text-gray-400 text-justify">
