@@ -14,41 +14,30 @@
   </a>
 </p>
 
-![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png)
+![demo](https://github.com/thamjidthachu/my-website/blob/master/public/projects/home.png?raw=true)
 ---
-## 🚨 About this repo (please read!)
 
-### 🚀 Latest Update
-I can’t believe my portfolio now has over 200 visitors each day! It’s incredibly rewarding to see talented people using my work as inspiration for their own projects. I'm thrilled to contribute to the open-source community and am happy to see my portfolio making an impact!
-
-You can use this code for your own website, but please with attribution 😊.
-
-Please note that the design of the website is inspired from "brittanychiang.com", but didn't copied even a single piece of code from brittanyching repo, However, i built the portfolio from scratch with different technolgoies, like `Tailwind CSS` and `Framer Motion` and i added some other functionalities to it, so it might seems the same, but believe me i did a lot of work the code, website and how it works is entirely different!!!!. If you have questions about implementation, please refer to the [Next.js DOCS](https://nextjs.org/docs) same thing for Tailwind CSS and Framer Motion check out the Documentation, Or you can simply reach to me directly.
-
-
-I'd like to highlight that the `This website can't be reached` trick featured on my portfolio is an `original idea` and not borrowed from any other source. It's intended as a playful element, reflecting my sense of humor. While I acknowledge that it might not be the most user-friendly approach. Through careful observation, I've calculated that the average reaction time is 2 seconds before users realize the playful nature of the message, at which point the content becomes accessible. It's a quirky touch meant to add a lighthearted element to the user experience.
-
-
-
-
-
----
 ### Table of Contents
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [:art: Color Reference](#references)
+- [ Color Reference](#references)
 - [License](#license)
 - [Author Info](#author-info)
 
 ---
 ## Description
 
-Without a doubt a portfolio website is a unique way to showcase your work and let others know about yourself. It’s like an evergreen platform for your projects, case studies, and information about you. However, Why why did i choose Next.js? Because it is a React framework with Server-Side Rendering, which is good for SEO (Good for us if we get found on Google, right?).
+Azure Horizon is more than just a project for me — it started back in 2021 as a demo for my first job, but it slowly grew into something personal. I began with Django templates, but as I evolved, so did the project. Now it’s powered by Django REST Framework on the backend and Next.js on the frontend, giving it both flexibility and scalability.  
 
-Also, Next.js helps us build a full back-end & blazing-fast websites along with benefits such as Image optimization.
+Why Django REST Framework? Because it provides a clean and robust way to structure APIs, making it perfect for scalability and future integrations.  
 
-Why tailwindcss? Because TailwindCSS is a framework which reduces a lot of styling efforts. It has low level CSS classes that you can directly embed into the HTML code.
+Why Next.js? Because I wanted a fast, modern frontend that’s SEO-friendly with features like Server-Side Rendering — essential for when this turns into a real resort’s digital presence.  
+
+And why TailwindCSS? Because I like clean, maintainable code. Tailwind makes it easy to design without bloating CSS files, while still keeping everything consistent and sharp.  
+
+At the end of the day, Azure Horizon isn’t just code. It’s my dream to one day bring it to life as a real resort with its own digital platform.
+
 
 ---
 ## Technologies & libraries
@@ -182,20 +171,6 @@ the following endpoint will return a json object contains "quote" and "author", 
 ```
 ---
 
-## References
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
-
----
 
 ## License
 
@@ -222,13 +197,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-
 ---
 
-## Author Info
 
-- Linkedin - [@thamjid-m](https://www.linkedin.com/in/thamjid-m/)
-- Website - [Thamjid Mannarayil](https://thamjidthachu.dev)
-
-[Back To The Top](#description) :
+[Back To The Top](#description) ^
 
