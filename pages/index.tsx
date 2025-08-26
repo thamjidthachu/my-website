@@ -89,7 +89,7 @@ export default function Home() {
     setTimeout(() => {
       setShowElement(true);
     }, 4500);
-
+ 
     setTimeout(() => {
       setShowThisCantBeReached(false);
     }, 5400);
