@@ -437,7 +437,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"https://my.away2gether.com"}>
+              <Link href={"www.away2gether.com"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
