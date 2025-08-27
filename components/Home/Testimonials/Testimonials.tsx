@@ -33,6 +33,14 @@ const testimonials: Testimonial[] = [
       "Thamjid is an awesome team player. Had worked with him in a project. He is great at understanding requirements and getting done whats required, good at handling international clients. I would highly recommend him for future lead roles.",
     profileUrl: "https://www.linkedin.com/in/nanthukishor/",
   },
+  {
+    avatar: "/avatars/rafeequent.jpg",
+    name: "Rafeeque NT",
+    role: "Senior Software Developer, Micro Objects",
+    message:
+      "I really enjoyed working with Thamjid. he’s a reliable and talented backend developer who made my work so much easier by building smooth and efficient APIs. He’s always supportive, easy to work with, and brings a problem-solving attitude that makes collaboration a great experience. Any team would be lucky to have him!",
+    profileUrl: "https://www.linkedin.com/in/rafeequent/",
+  },
 ];
 
 const LOOP_FACTOR = 2; // Duplicate testimonials for seamless looping
