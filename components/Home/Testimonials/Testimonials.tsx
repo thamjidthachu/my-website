@@ -150,7 +150,7 @@ export default function Testimonials() {
         {displayTestimonials.map((t, i) => (
           <div
             key={i}
-            className="bg-white dark:bg-neutral-900 shadow-lg rounded-xl p-6 flex-1 min-w-[320px] max-w-md mx-auto flex flex-col items-center"
+            className="bg-white dark:bg-neutral-600 shadow-lg rounded-xl p-6 flex-1 min-w-[320px] max-w-md mx-auto flex flex-col items-center"
             style={{ userSelect: "none" }}
           >
             <a href="https://www.linkedin.com/in/thamjid-m/details/recommendations/" target="_blank" tabIndex={-1}>
