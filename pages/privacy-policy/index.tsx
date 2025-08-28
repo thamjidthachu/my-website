@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden">
         <div className="px-4 py-5 sm:p-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy for thamjidthachu.dev</h1>
-          <p className="text-sm text-gray-600 mb-8">Effective Date: 5 Oct 2024</p>
+          <p className="text-sm text-gray-600 mb-8">Effective Date: 01 Sep 2025</p>
 
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">1. Google Analytics</h2>
