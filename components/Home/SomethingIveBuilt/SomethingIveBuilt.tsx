@@ -30,7 +30,379 @@ export default function SomethingIveBuilt() {
       <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         {/* // TODO : to here  */}        
 
-        {/* // ? Project 0 Azure Horizon */}
+        {/* // ? Project 1 Aqary CRM */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
+                <span className="text-AAsecondary text-xl">In Developing...</span>
+              </div>
+
+              <Img src={"/projects/aqarycrm.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img src={"/projects/aqarycrm-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+              </div>
+            </div>
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+              <div className="w-full"></div>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
+            </div>
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Aqary CRM
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  I’m currently building <span className="text-AAsecondary">Aqary CRM</span>, a comprehensive{" "}
+                  <span className="text-AAsecondary">real estate management platform</span> designed to streamline{" "}
+                  <span className="text-AAsecondary">client relationships</span>,{" "}
+                  <span className="text-AAsecondary">lead tracking</span>, and{" "}
+                  <span className="text-AAsecondary">property operations</span>. The system is powered by{" "}
+                  <span className="text-AAsecondary">Django REST Framework</span> with{" "}
+                  <span className="text-AAsecondary">Flask-SocketIO</span> for{" "}
+                  <span className="text-AAsecondary">real-time notifications</span>,{" "}
+                  <span className="text-AAsecondary">Celery & Redis</span> for{" "}
+                  <span className="text-AAsecondary">async workflows</span>, and{" "}
+                  <span className="text-AAsecondary">Swagger</span> for{" "}
+                  <span className="text-AAsecondary">API documentation</span>. 
+                  The platform follows a robust{" "}
+                  <span className="text-AAsecondary">microservices architecture</span> for scalability, featuring modules like{" "}
+                  <span className="text-AAsecondary">Admin Management</span>,{" "}
+                  <span className="text-AAsecondary">Notification Service</span>, and{" "}
+                  <span className="text-AAsecondary">Booking Management</span>.
+                  The goal is to deliver a{" "}
+                  <span className="text-AAsecondary">cloud-ready CRM solution</span> that integrates{" "}
+                  <span className="text-AAsecondary">modern real estate operations</span> with{" "}
+                  <span className="text-AAsecondary">intelligent automation</span>.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Python/Flask</span>
+                <span className="pr-4 z-10">PostgreSQL</span>
+                <span className="pr-4 z-10">Celery</span>
+                <span className="pr-4 z-10">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10">WebSocket</span>
+                <span className="pr-4 z-10">Azure ServiceBus</span>
+                <span className="pr-4 z-10">Docker</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+              <GithubIcon link="https://github.com/thamjidthachu" />
+              <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
+                <ExternalLink url={""} router={router} />
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 2 Aqary Identity */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a href={"https://id.aqaryone.com/"} target="_blank" rel="noreferrer">
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img src={"/projects/aqaryidentity.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img src={"/projects/aqaryidentity-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    HRMS - Identity Service
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  I’ve been developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
+                  <span className="text-AAsecondary">core authentication and authorization engine</span> of the{" "}
+                  <span className="text-AAsecondary">Aqary ecosystem</span>. It manages{" "}
+                  <span className="text-AAsecondary">user onboarding</span>,{" "}
+                  <span className="text-AAsecondary">multi-role access control</span>, and{" "}
+                  <span className="text-AAsecondary">secure token-based authentication</span> across all connected microservices.{" "}
+                  Built with <span className="text-AAsecondary">Django REST Framework</span>, it integrates{" "}
+                  <span className="text-AAsecondary">JWT</span> and{" "}
+                  <span className="text-AAsecondary">OAuth2</span> protocols to enable{" "}
+                  <span className="text-AAsecondary">seamless cross-service communication</span>. The system also supports{" "}
+                  <span className="text-AAsecondary">organization-level user management</span>,{" "}
+                  <span className="text-AAsecondary">custom permission hierarchies</span>, and{" "}
+                  <span className="text-AAsecondary">centralized audit logging</span>. 
+                  The vision is to establish a{" "}
+                  <span className="text-AAsecondary">unified identity layer</span> that ensures{" "}
+                  <span className="text-AAsecondary">security, scalability,</span> and{" "}
+                  <span className="text-AAsecondary">consistent access control</span> across all{" "}
+                  <span className="text-AAsecondary">Aqary microservices</span>.
+                </p>
+
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">Python/Flask</span>
+                <span className="pr-4 z-10">PostgreSQL</span>
+                <span className="pr-4 z-10">Celery</span>
+                <span className="pr-4 z-10">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10">GRPC</span>
+                <span className="pr-4 z-10">Azure BusService</span>
+                <span className="pr-4 z-10">Docker</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/thamjidthachu" />
+                <a href="https://www.https://id.aqaryone.com/" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={""} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>        
+
+        {/* // ? Project 3 Aqary App Console */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
+                <span className="text-AAsecondary text-xl">In Developing...</span>
+              </div>
+
+              <Img src={"/projects/aqaryconsole.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img src={"/projects/aqaryconsole-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+              </div>
+            </div>
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+              <div className="w-full"></div>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
+            </div>
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    App Console
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                I’m currently building the <span className="text-AAsecondary">Aqary App Console</span>, a{" "}
+                <span className="text-AAsecondary">developer-focused platform</span> that enables seamless{" "}
+                <span className="text-AAsecondary">app integration</span> within the{" "}
+                <span className="text-AAsecondary">Aqary ecosystem</span>. It allows developers to{" "}
+                <span className="text-AAsecondary">register, configure,</span> and{" "}
+                <span className="text-AAsecondary">manage third-party applications</span> connected through{" "}
+                <span className="text-AAsecondary">OAuth configurations</span>,{" "}
+                <span className="text-AAsecondary">webhooks,</span> and{" "}
+                <span className="text-AAsecondary">permission scopes</span>. 
+                Built with <span className="text-AAsecondary">Flask</span> and{" "}
+                <span className="text-AAsecondary">SQLAlchemy</span>, the system leverages{" "}
+                <span className="text-AAsecondary">modular APIs</span> for flexibility and{" "}
+                <span className="text-AAsecondary">secure communication</span> across services. 
+                It supports features like{" "}
+                <span className="text-AAsecondary">trusted IP whitelisting</span>,{" "}
+                <span className="text-AAsecondary">callback URL validation</span>, and{" "}
+                <span className="text-AAsecondary">dynamic webhook event mapping</span>. 
+                The goal is to create a{" "}
+                <span className="text-AAsecondary">centralized application hub</span> that empowers{" "}
+                <span className="text-AAsecondary">developers</span> and{" "}
+                <span className="text-AAsecondary">partners</span> to extend Aqary’s capabilities through{" "}
+                <span className="text-AAsecondary">secure and scalable integrations</span>.
+              </p>
+
+
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Python/Flask</span>
+                <span className="pr-4 z-10">Event Driven Architecture</span>
+                <span className="pr-4 z-10">PostgreSQL</span>
+                <span className="pr-4 z-10">Celery</span>
+                <span className="pr-4 z-10">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10">Azure ServiceBus</span>
+                <span className="pr-4 z-10">Docker</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+              <GithubIcon link="https://github.com/thamjidthachu" />
+              <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
+                <ExternalLink url={""} router={router} />
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 4 Aqary API Gateway */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a href={"https://aqaryaaid.com/"} target="_blank" rel="noreferrer">
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img src={"/projects/aqaryrealestate.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img src={"/projects/aqaryrealestate-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Aqary API Gateway
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  I architected the <span className="text-AAsecondary">Aqary API Gateway</span> as the{" "}
+                  <span className="text-AAsecondary">central entry point</span> for all{" "}
+                  <span className="text-AAsecondary">microservices</span> within the{" "}
+                  <span className="text-AAsecondary">Aqary ecosystem</span>. 
+                  It handles{" "}
+                  <span className="text-AAsecondary">request routing</span>,{" "}
+                  <span className="text-AAsecondary">authentication</span>,{" "}
+                  <span className="text-AAsecondary">rate limiting</span>, and{" "}
+                  <span className="text-AAsecondary">service-level security policies</span>, ensuring{" "}
+                  <span className="text-AAsecondary">consistency</span> and{" "}
+                  <span className="text-AAsecondary">reliability</span> across all APIs. 
+                  Built with <span className="text-AAsecondary">Flask</span> and{" "}
+                  <span className="text-AAsecondary">Nginx</span> at its core, the gateway integrates with the{" "}
+                  <span className="text-AAsecondary">Aqary Identity Service</span> to validate{" "}
+                  <span className="text-AAsecondary">JWT tokens</span> and enforce{" "}
+                  <span className="text-AAsecondary">role-based access control</span>. 
+                  It also features{" "}
+                  <span className="text-AAsecondary">centralized logging</span>,{" "}
+                  <span className="text-AAsecondary">dynamic service discovery</span>, and{" "}
+                  <span className="text-AAsecondary">load balancing</span> for{" "}
+                  <span className="text-AAsecondary">high availability</span>. 
+                  The goal is to provide a{" "}
+                  <span className="text-AAsecondary">scalable, secure,</span> and{" "}
+                  <span className="text-AAsecondary">extensible gateway layer</span> that unifies{" "}
+                  <span className="text-AAsecondary">all Aqary services</span> under a{" "}
+                  <span className="text-AAsecondary">single, efficient API interface</span>.
+                </p>
+
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">Python/Flask</span>
+                <span className="pr-4 z-10">Docker</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/thamjidthachu" />
+                <a href="https://www.https://aqaryaid.com/" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={""} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>        
+
+        {/* // ? Project 5 Azure Horizon */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
@@ -118,7 +490,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 1 Hrms Aqary */}
+        {/* // ?  Project 6 Hrms Aqary */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
@@ -191,8 +563,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - ExploreWorld */}
-
+        {/* // ?  Project 7 - ExploreWorld */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
@@ -278,7 +649,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 3 - Wearlay */}
+        {/* // ?  Project 8 - Wearlay */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
@@ -350,7 +721,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        {/* // ?  Project 4 University Portals */}
+        {/* // ?  Project 9 University Portals */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
@@ -429,7 +800,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 5 Away2gether */}
+        {/* // ?  Project 10 Away2gether */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
@@ -506,7 +877,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ? Project 6 Redalion */}
+        {/* // ? Project 11 Redalion */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div

@@ -18,6 +18,14 @@ const testimonials: Testimonial[] = [
     profileUrl: "https://www.linkedin.com/in/lakshmi-soman-nair/", 
   },
   {
+    avatar: "/avatars/manuramachandran.jpg",
+    name: "Dr. MAanu Mundapatt Ramachandran",
+    role: "Academicians: Computer Science @ Ministry of Education - UAE",
+    message:
+      "Thamjid is exceptionally talented in programming, analytical reasoning, and problem-solving. He has demonstrated a natural ability to grasp complex concepts quickly and apply them effectively to both academic and practical projects.",
+    profileUrl: "https://www.linkedin.com/in/dr-manu-mundappat-ramachandran-3686591a6/",
+  },
+  {
     avatar: "/avatars/arunnramesh.jpg",
     name: "Arunn Ramesh",
     role: "Project Manager, Flycatch Infotech",
@@ -38,7 +46,7 @@ const testimonials: Testimonial[] = [
     name: "Rafeeque NT",
     role: "Senior Software Developer, Micro Objects",
     message:
-      "I really enjoyed working with Thamjid. he’s a reliable and talented backend developer who made my work so much easier by building smooth and efficient APIs. He’s always supportive, easy to work with, and brings a problem-solving attitude that makes collaboration a great experience. Any team would be lucky to have him!",
+      "I really enjoyed working with Thamjid. he’s a reliable and talented backend developer who made my work so much easier by building smooth and efficient APIs. He’s always supportive, easy to work with, and brings a problem-solving attitude.",
     profileUrl: "https://www.linkedin.com/in/rafeequent/",
   },
 ];
@@ -153,7 +161,7 @@ export default function Testimonials() {
             className="bg-white dark:bg-neutral-600 shadow-lg rounded-xl p-6 flex-1 min-w-[320px] max-w-md mx-auto flex flex-col items-center"
             style={{ userSelect: "none" }}
           >
-            <a href="https://www.linkedin.com/in/thamjid-m/details/recommendations/" target="_blank" tabIndex={-1}>
+            <a href="https://www.linkedin.com/in/thamjid-mannarayil/details/recommendations/" target="_blank" tabIndex={-1}>
               <img
                 src={t.avatar}
                 alt={t.name}

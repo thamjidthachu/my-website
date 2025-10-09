@@ -59,7 +59,7 @@ const MyName: React.FC<MyNameProps> = props => {
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
         I&apos;m an <span className="text-AAsecondary keyword-hover">AI-focused Python Developer</span> with over{" "}
-        <span className="text-AAsecondary keyword-hover">3 years of experience</span> designing and building scalable web applications with{" "}
+        <span className="text-AAsecondary keyword-hover">4 years of experience</span> designing and building scalable web applications with{" "}
         <span className="text-AAsecondary keyword-hover">Django</span> and{" "}
         <span className="text-AAsecondary keyword-hover">Flask</span>.
         <br className="3xl:block hidden" /> I bring a proven track record across{" "}
