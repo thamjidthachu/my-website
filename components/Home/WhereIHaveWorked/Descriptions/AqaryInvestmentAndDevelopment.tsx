@@ -5,20 +5,32 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function AqaryInvestmentAndDevelopment() {
   const tasks = [
     {
-      text: "Developed and maintained an AI-enhanced HRMS platform with Flask, featuring ATS resume screening and a chatbot for employee support.",
-      keywords: ["AI-enhanced HRMS", "Flask", "ATS resume screening", "chatbot", "employee support"],
+      text: "Developed and maintained an AI-enhanced HRMS platform using Flask, featuring ATS-driven resume screening and an intelligent chatbot for employee assistance and onboarding support.",
+      keywords: ["AI-enhanced", "Flask", "ATS-driven", "chatbot", "employee assistance", "onboarding support"],
     },
     {
-      text: "Created a subscription-based event service that enables external apps to receive real-time HRMS updates through webhooks.",
-      keywords: ["subscription-based event service", "real-time HRMS updates", "webhooks"],
+      text: "Implemented a subscription-based event system that allows external applications to receive real-time HRMS updates via Webhooks, improving automation and system interoperability.",
+      keywords: ["subscription-based event system", "real-time HRMS updates", "webhooks", "automation", "interoperability"],
     },
     {
-      text: "Integrated biometric devices and implemented event-driven processing to automate attendance tracking and validation.",
-      keywords: ["biometric devices", "event-driven processing", "attendance tracking", "validation"],
+      text: "Integrated biometric devices and designed event-driven workflows to automate attendance tracking, validation, and exception handling for a seamless HR experience.",
+      keywords: ["biometric devices", "event-driven", "automate", "attendance tracking", "HR experience"],
     },
     {
-      text: "Built a WebSocket-powered notification system to promptly alert employees about daily swipe discrepancies.",
-      keywords: ["WebSocket-powered notification system", "alert", "swipe discrepancies"],
+      text: "Built a WebSocket-powered notification module to deliver instant alerts and real-time updates, enhancing employee engagement and operational visibility.",
+      keywords: ["WebSocket-powered notification", "alert", "real-time", "enhancing"],
+    },
+    {
+      text: "Contributed to the backend development of a large-scale CRM platform, handling backend coding, database architecture, API design, and system integration.",
+      keywords: ["backend development", "large-scale CRM", "coding", "architecture", "design", "integration"],
+    },
+    {
+      text: "Integrated WebSockets and message queuing mechanisms to enable real-time updates, asynchronous communication, and efficient data processing.",
+      keywords: ["WebSockets", "queuing mechanisms ", "real-time", "asynchronous", "efficient", "processing"],
+    },
+    {
+      text: "Collaborated closely with cross-functional teams to ensure scalability, maintainability, and clean code practices across the system’s microservices.",
+      keywords: ["cross-functional", "scalability,", "maintainability", "clean code", "architecture", "microservices"],
     },
   ];
 
