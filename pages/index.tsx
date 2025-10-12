@@ -15,7 +15,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
-import Maintenance from "../components/Home/Maintenance/Maintenance";
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
   const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
@@ -129,7 +128,7 @@ export default function Home() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@titofabdo" />
+        <meta name="twitter:site" content="@thamjid_thachu" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -155,7 +154,27 @@ export default function Home() {
           {!isProd && <ScreenSizeDetector />}
         </div>
       ) : (
-        <Maintenance />
+        <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full flex justify-center items-center">
+          <section className="bg-white bg-transparent">
+            <div className="py-8 px-4 mx-auto max-w-screen-md text-center lg:py-16 lg:px-12">
+              <h1 className="mb-4 text-4xl font-bold tracking-tight leading-none text-gray-900 lg:mb-6 md:text-5xl xl:text-6xl dark:text-white">
+                Access Restricted
+              </h1>
+              <p className="font-light text-gray-500 md:text-lg xl:text-xl dark:text-gray-400">
+                Sorry! Access from your location is currently restricted.
+              </p>
+              <p className="font-light text-white-500 md:text-lg xl:text-xl dark:text-gray-400">
+                Contact me at{" "}
+                <a
+                  className="text-white underline"
+                  href="mailto:thachuthamjid@gmail.com?subject=Hey,%20Buddy!!&body=Hope%20you%20are%20doing%20well!"
+                >
+                  thachuthamjid@gmail.com
+                </a>
+              </p>
+            </div>
+          </section>
+        </div>
       )}
     </>
   );
