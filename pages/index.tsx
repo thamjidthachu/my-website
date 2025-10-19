@@ -11,6 +11,7 @@ import Testimonials from "../components/Home/Testimonials/Testimonials";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
 import Footer from "../components/Footer/Footer";
 import AppContext from "../components/AppContextFolder/AppContext";
+import ParticleBackground from "../components/Background/ParticleBackground";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
@@ -135,7 +136,8 @@ export default function Home() {
       </Head>
 
       {!isBlackListed ? (
-        <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
+        <div className="relative snap-mandatory min-h-screen dotted-bg animated-gradient w-full ">
+          <ParticleBackground />
           {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
           {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
           <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
@@ -154,7 +156,8 @@ export default function Home() {
           {!isProd && <ScreenSizeDetector />}
         </div>
       ) : (
-        <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full flex justify-center items-center">
+        <div className="relative snap-mandatory min-h-screen dotted-bg animated-gradient w-full flex justify-center items-center">
+          <ParticleBackground />
           <section className="bg-white bg-transparent">
             <div className="py-8 px-4 mx-auto max-w-screen-md text-center lg:py-16 lg:px-12">
               <h1 className="mb-4 text-4xl font-bold tracking-tight leading-none text-gray-900 lg:mb-6 md:text-5xl xl:text-6xl dark:text-white">
