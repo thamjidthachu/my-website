@@ -554,8 +554,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">RabbitMQ/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
-                <a href="https://www.https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
+                <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -713,7 +712,6 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
                 <a href="https://www.wearlay.in/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>

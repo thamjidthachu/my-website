@@ -105,7 +105,7 @@ const MyName: React.FC<MyNameProps> = props => {
         animate={{ opacity: 1 }}
         transition={{ delay: props.finishedLoading ? 0 : 11, duration: 0.5 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-AAsecondary"
-        // style={{ bottom: '2.5rem', left: '50%', transform: 'translateX(-50%)' }} // Alternative to Tailwind classes
+        style={{ bottom: '2.5rem', left: '50%', transform: 'translateX(-50%)' }} // Alternative to Tailwind classes
       >
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 animate-bounce">
           <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
