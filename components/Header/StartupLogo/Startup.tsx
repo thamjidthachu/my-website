@@ -18,31 +18,34 @@ const Startup = (props) => {
   }
 
   return (
-
-  <motion.div 
-    initial={{opacity:1}}
-    animate={{opacity:0}}
-    transition={{opacity:{delay:4.9,duration:0}}}
-    className="absolute h-full w-full flex justify-center items-center bg-StartupBackground">
-      <motion.div
-        initial={{ opacity: 0, x: 0, y: 0, scale: "100%" }}
-        animate={{ 
-          opacity: [1, 0, 1], 
-          x: -WidthBy2, 
-          y: -HeightBy2,
-          scale: greaterThanSmall ? "57%" : "50%"
-        }}
-        transition={{
-          opacity: { delay: 3, duration: 1.5 },
-          x: { duration: 0.8, delay: 4.5, ease: "easeInOut" },
-          y: { duration: 0.8, delay: 4.5, ease: "easeInOut" },
-          scale: { duration: 0.8, delay: 4.5, ease: "easeInOut" },
-        }}
-        className="relative h-24 w-24 flex justify-center items-center"
-        style={{
-          filter: 'drop-shadow(0 0 20px rgba(233, 69, 96, 0.3))'
-        }}
-      >
+    // STARTUP ANIMATION COMMENTED OUT - Component now returns null to disable
+    null
+    
+    /* Original startup animation code commented out:
+    <motion.div 
+      initial={{opacity:1}}
+      animate={{opacity:0}}
+      transition={{opacity:{delay:4.9,duration:0}}}
+      className="absolute h-full w-full flex justify-center items-center bg-StartupBackground">
+        <motion.div
+          initial={{ opacity: 0, x: 0, y: 0, scale: "100%" }}
+          animate={{ 
+            opacity: [1, 0, 1], 
+            x: -WidthBy2, 
+            y: -HeightBy2,
+            scale: greaterThanSmall ? "57%" : "50%"
+          }}
+          transition={{
+            opacity: { delay: 3, duration: 1.5 },
+            x: { duration: 0.8, delay: 4.5, ease: "easeInOut" },
+            y: { duration: 0.8, delay: 4.5, ease: "easeInOut" },
+            scale: { duration: 0.8, delay: 4.5, ease: "easeInOut" },
+          }}
+          className="relative h-24 w-24 flex justify-center items-center"
+          style={{
+            filter: 'drop-shadow(0 0 20px rgba(233, 69, 96, 0.3))'
+          }}
+        >
         <motion.div
           initial={{ scale: 0, x: 0 }}
           animate={{ scale: 1, rotate: 90, x: 38 }}
@@ -131,6 +134,7 @@ const Startup = (props) => {
         </motion.span>
       </motion.div>
     </motion.div>
+    */
   );
 };
 export default Startup;

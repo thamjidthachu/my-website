@@ -18,7 +18,7 @@ import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
-  const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
+  const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(false);
   const [ShowMe, setShowMe] = useState(false);
   // context Variable to clearInterval
   const context = useContext(AppContext);
@@ -88,18 +88,18 @@ export default function Home() {
     }
     setTimeout(() => {
       setShowElement(true);
-    }, 4500);
+    }, 1500);
  
     setTimeout(() => {
       setShowThisCantBeReached(false);
-    }, 5400);
+    }, 2000);
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
     setTimeout(() => {
       setShowElement(false);
       setShowMe(true);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 10400);
+    }, 3000);
   }, [context, context.sharedState]);
 
   useEffect(() => {

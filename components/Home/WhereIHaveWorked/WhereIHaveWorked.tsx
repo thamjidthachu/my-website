@@ -64,13 +64,13 @@ const CompaniesBar = props => {
           props.setDescriptionJob(props.DescriptionJob);
           setCompanyNameBackgroundColorGreen(props.CompanyNameBackgroundColorGreen);
         }}
-        className={`flex-none sm:text-sm text-xs text-center md:text-left  hover:text-AAsecondary
-             hover:bg-ResumeButtonHover rounded  font-mono  
-             py-3 md:pl-6 md:px-4 md:w-44 w-32 duration-500
+        className={`flex-1 md:flex-none text-[10px] xs:text-xs sm:text-sm text-center md:text-left hover:text-AAsecondary
+             hover:bg-ResumeButtonHover rounded font-mono  
+             py-2 px-1 xs:py-3 xs:px-2 md:pl-6 md:px-4 md:w-44 min-w-0 duration-500 transition-all overflow-hidden
              ${
                companyNameBackgroundColorGreen[props.ButtonOrderOfcompanyNameBackgroundColorGreen]
-                 ? "bg-ResumeButtonHover text-AAsecondary"
-                 : "text-gray-500"
+                 ? "bg-AAsecondary bg-opacity-20 text-AAsecondary border-l-2 md:border-l-2 border-b-2 md:border-b-0 border-AAsecondary font-semibold"
+                 : "text-gray-400 hover:text-gray-200"
              }`}
       >
         {props.CompanyName}
@@ -81,14 +81,14 @@ const CompaniesBar = props => {
   return (
     <div
       id="WhereIhaveWorkedSection"
-      className=" flex flex-col md:flex-row  w-screen lg:w-auto 
-      overflow-auto scrollbar-hide md:overflow-hidden pb-4 md:pb-0 justify-start
-       sm:justify-center items-start sm:items-center"
+      className=" flex flex-col md:flex-row w-full lg:w-auto 
+      overflow-hidden pb-4 md:pb-0 justify-start
+       sm:justify-center items-start sm:items-center px-2 xs:px-4 md:px-0"
     >
       {/* // ? left bar Holder */}
       <div
         className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[150px] translate-y-1 md:w-0.5  
-        rounded md:order-1 order-2  "
+        rounded md:order-1 order-2 md:mr-4"
       >
         {/* // ? animated left bar */}
         <motion.div
@@ -98,8 +98,8 @@ const CompaniesBar = props => {
         ></motion.div>
       </div>
       {/* // ? Companies name as buttons */}
-      <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
-        <div className="flex flex-row md:flex-col">
+      <div className="flex flex-col md:order-2 order-1 space-y-1 pl-0 md:pl-0 w-full md:w-auto items-center md:items-start">
+        <div className="flex flex-row md:flex-col gap-1 xs:gap-2 md:gap-1 justify-center md:justify-start w-full md:w-auto">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="Aqary Investment and Development"
@@ -128,7 +128,7 @@ const CompaniesBar = props => {
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>
-        <div className="block md:hidden h-0.5 rounded bg-gray-500">
+        <div className="block md:hidden h-0.5 rounded bg-gray-500 w-full max-w-md">
           <motion.div animate={{ x: barAbovePosition }} className="w-[150px] h-0.5 rounded bg-AAsecondary"></motion.div>
         </div>
       </div>

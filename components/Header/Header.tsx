@@ -58,14 +58,29 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
   useEffect(() => {
     setTimeout(() => {
       setShowElement(true);
-    }, 10400);
+    }, 1000);
   }, []);
 
   console.log("rotate from header : ", rotate);
-  //veify document for serverSide rendering
+  //verify document for serverSide rendering and ensure scroll is enabled after navbar loads
   if (typeof document !== "undefined") {
+    // Only block scroll when mobile menu is actually open (rotate = true)
     rotate ? (document.body.style.overflow = "hidden") : (document.body.style.overflow = "auto");
   }
+
+  // Safety mechanism: Ensure scrolling is enabled after navbar loads
+  useEffect(() => {
+    if (typeof document !== "undefined" && !rotate) {
+      // Force enable scrolling after a short delay if not in mobile menu mode
+      const enableScrollTimeout = setTimeout(() => {
+        if (!rotate) {
+          document.body.style.overflow = "auto";
+        }
+      }, 2000); // Enable scroll after 2 seconds regardless of other states
+      
+      return () => clearTimeout(enableScrollTimeout);
+    }
+  }, [rotate]);
 
   return (
     <>
@@ -76,8 +91,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
         ref={RefNavBar}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        // changed from 10.4 to 1
-        transition={{ opacity: { delay: props.finishedLoading ? 0 : 9.4, duration: 0 } }}
+        transition={{ opacity: { delay: props.finishedLoading ? 0 : 0.2, duration: 0.5 } }}
         className={`w-full fixed ${ShowElement ? `backdrop-blur-md bg-black/20 shadow-xl border-b border-white/10` : `bg-opacity-0 `} flex 
       justify-between px-6 sm:px-12 py-2 sm:py-4  transition-all duration-500 translate-y-0 z-20`}
       >

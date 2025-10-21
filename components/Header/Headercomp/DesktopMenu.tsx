@@ -16,8 +16,8 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         }}
         transition={{
           type: "spring",
-          duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.4,
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 0.5,
         }}
         className=" text-AAAccent"
        
@@ -37,8 +37,8 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         }}
         transition={{
           type: "spring",
-          duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.7,
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 0.7,
         }}
         className="text-AAAccent"
        
@@ -59,8 +59,8 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         }}
         transition={{
           type: "spring",
-          duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.8,
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 0.9,
         }}
         className="text-AAAccent"
       >
@@ -81,8 +81,8 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         }}
         transition={{
           type: "spring",
-          duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.9,
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 1.1,
         }}
         className="text-AAAccent"
       >
@@ -101,8 +101,8 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         }}
         transition={{
           type: "spring",
-          duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 10,
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 1.3,
         }}
         className="text-AAAccent"
       >
@@ -122,8 +122,8 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         }}
         transition={{
           type: "spring",
-          duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 10.2,
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 1.5,
         }}
         // onClick={()=>{router.push("/resume.pdf")}}
         className="text-AATextSecondary border-2 border-AAAccent py-2 px-4 rounded-lg hover:bg-AAAccent/20 hover:border-AATextPrimary transition-all duration-300 backdrop-blur-sm"

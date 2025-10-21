@@ -46,8 +46,8 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             <span className="text-AATextPrimary font-medium">e-commerce</span>. Currently, I&apos;m working as an{" "}
             <span className="text-AATextPrimary font-medium">AI/ML Engineer</span> in Abu Dhabi, where I integrate intelligent systems like{" "}
             <span className="text-AATextPrimary font-medium">resume parsing</span>,{" "}
-            <span className="text-AAsecondary font-medium">ATS checks</span>, and{" "}
-            <span className="text-AAsecondary font-medium">chatbots</span> to enhance enterprise platforms.
+            <span className="text-AATextPrimary font-medium">ATS checks</span>, and{" "}
+            <span className="text-AATextPrimary font-medium">chatbots</span> to enhance enterprise platforms.
           </div>
           <div className="font-Header text-AATextMuted text-justify leading-relaxed">
             Some of my favorite projects include <span className="text-AATextPrimary font-medium">Wearlay</span>, an inventory and CRM
@@ -75,8 +75,8 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
           </div>
           <div className="font-Header text-AATextMuted pt-4 text-justify leading-relaxed">
             Whether it&apos;s <span className="text-AAsecondary font-medium">AI-driven platforms</span>,{" "}
-            <span className="text-AAsecondary font-medium">microservices-based applications</span>, or{" "}
-            <span className="text-AAsecondary font-medium">innovative data solutions</span>, I&apos;m always up for the next challenge that
+            <span className="text-AATextPrimary font-medium">microservices-based applications</span>, or{" "}
+            <span className="text-AATextPrimary font-medium">innovative data solutions</span>, I&apos;m always up for the next challenge that
             blends <span className="text-AATextPrimary font-medium">technology</span>,{" "}
             <span className="text-AATextPrimary font-medium">creativity</span>, and{" "}
             <span className="text-AATextPrimary font-medium">impact</span>.
