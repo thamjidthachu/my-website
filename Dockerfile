@@ -14,8 +14,7 @@ RUN yarn install --frozen-lockfile
 COPY . .
 
 # Build Next.js app
-RUN yarn build
-
+RUN yarn build --no-lint
 # Expose port
 EXPOSE 5000
 

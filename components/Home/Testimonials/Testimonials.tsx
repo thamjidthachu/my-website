@@ -158,33 +158,37 @@ export default function Testimonials() {
         {displayTestimonials.map((t, i) => (
           <div
             key={i}
-            className="bg-white dark:bg-neutral-600 shadow-lg rounded-xl p-6 flex-1 min-w-[320px] max-w-md mx-auto flex flex-col items-center"
+            className="backdrop-blur-xl bg-white/10 border border-white/20 shadow-2xl rounded-xl p-6 flex-1 min-w-[320px] max-w-md mx-auto flex flex-col items-center relative overflow-hidden group hover:bg-white/20 hover:border-AAAccent/40 transition-all duration-500 hover:shadow-AAAccent/20"
             style={{ userSelect: "none" }}
           >
-            <a href="https://www.linkedin.com/in/thamjid-mannarayil/details/recommendations/" target="_blank" tabIndex={-1}>
-              <img
-                src={t.avatar}
-                alt={t.name}
-                className="w-16 h-16 rounded-full mb-4 border-2 border-primary hover:scale-105 transition-transform"
-                draggable={false}
-              />
-            </a>
-            <p className="text-lg italic text-center mb-4 text-neutral-700 dark:text-neutral-300">
-              “{t.message}”
-            </p>
-            <div className="text-center">
-              {/* Name links to profile */}
-              <a
-                href={t.profileUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold font-sans text-AAsecondary text-base hover:underline"
-              >
-                {t.name}
+            <div className="absolute inset-0 bg-gradient-to-br from-white/15 via-AAAccent/5 to-AAsecondary/10 opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-AATextPrimary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div className="relative z-10 flex flex-col items-center w-full h-full">
+              <a href="https://www.linkedin.com/in/thamjid-mannarayil/details/recommendations/" target="_blank" tabIndex={-1}>
+                <img
+                  src={t.avatar}
+                  alt={t.name}
+                  className="w-16 h-16 rounded-full mb-4 border-2 border-primary hover:scale-105 transition-transform"
+                  draggable={false}
+                />
               </a>
-              {t.role && (
-                <span className="block text-sm text-neutral-500">{t.role}</span>
-              )}
+              <p className="text-lg italic text-center mb-4 text-AATextSecondary">
+                "{t.message}"
+              </p>
+              <div className="text-center">
+                {/* Name links to profile */}
+                <a
+                  href={t.profileUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold font-sans text-AAsecondary text-base hover:underline"
+                >
+                  {t.name}
+                </a>
+                {t.role && (
+                  <span className="block text-sm text-AATextMuted">{t.role}</span>
+                )}
+              </div>
             </div>
           </div>
         ))}

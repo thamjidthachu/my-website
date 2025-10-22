@@ -34,15 +34,15 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -57,14 +57,14 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/aqarycrm-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
             </div>
@@ -131,14 +131,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://id.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/aqaryidentity.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -148,10 +148,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/aqaryidentity-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
@@ -217,15 +217,15 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -240,14 +240,14 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/aqaryconsole-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
             </div>
@@ -317,14 +317,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://aqaryaaid.com/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/aqaryrealestate.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -334,10 +334,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/aqaryrealestate-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
@@ -406,15 +406,15 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -429,14 +429,14 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/azurehorizon-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
             </div>
@@ -494,14 +494,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://people.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/hrmsaqary.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -511,10 +511,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/hrmsaqary-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
@@ -566,7 +566,7 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
@@ -581,8 +581,8 @@ export default function SomethingIveBuilt() {
               <a href="https://www.exploreworld.com/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -593,10 +593,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/exploreworld-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
@@ -652,14 +652,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://www.wearlay.in/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/wearlay.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -669,10 +669,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/wearlay-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
@@ -723,15 +723,15 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <Link href="https://my.um.edu.sa/">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
 
@@ -742,10 +742,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/almaarefa-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
@@ -802,14 +802,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <Link href={"www.away2gether.com"}>
                 <div
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
               <Img src={"/projects/away2gether.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -819,10 +819,10 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/away2gether-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
@@ -879,15 +879,15 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded 
+           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -902,14 +902,14 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
                 <Img src={"/projects/redalion-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">On hold...</span>
             </div>
