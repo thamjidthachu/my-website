@@ -173,7 +173,7 @@ export default function Testimonials() {
                 />
               </a>
               <p className="text-lg italic text-center mb-4 text-AATextSecondary">
-                "{t.message}"
+                &quot;{t.message}&quot;
               </p>
               <div className="text-center">
                 {/* Name links to profile */}
