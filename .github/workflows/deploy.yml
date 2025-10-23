@@ -3,7 +3,8 @@ on:
   push:
     branches:
       - master
-      - develop
+  # Only deploy to production when changes are merged to master
+  # For develop branch deployments, create a separate workflow
 
 jobs:
   deploy:
