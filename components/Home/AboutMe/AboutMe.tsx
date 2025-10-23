@@ -74,7 +74,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             ))}
           </div>
           <div className="font-Header text-AATextMuted pt-4 text-justify leading-relaxed">
-            Whether it&apos;s <span className="text-AAsecondary font-medium">AI-driven platforms</span>,{" "}
+            Whether it&apos;s <span className="text-AATextPrimary font-medium">AI-driven platforms</span>,{" "}
             <span className="text-AATextPrimary font-medium">microservices-based applications</span>, or{" "}
             <span className="text-AATextPrimary font-medium">innovative data solutions</span>, I&apos;m always up for the next challenge that
             blends <span className="text-AATextPrimary font-medium">technology</span>,{" "}

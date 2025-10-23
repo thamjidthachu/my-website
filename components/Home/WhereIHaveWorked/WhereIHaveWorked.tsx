@@ -3,7 +3,7 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import FlycatchInfotech from "./Descriptions/FlycatchInfotech";
 import QuestInnovativeSolutions from "./Descriptions/QuestInnovativeSolutions";
-import AqaryInvestmentAndDevelopment from "./Descriptions/AqaryInvestmentAndDevelopment";
+import AqaryInternational from "./Descriptions/AqaryInternational";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
@@ -11,7 +11,7 @@ export default function WhereIHaveWorked() {
   const GetDescription = () => {
     switch (DescriptionJob) {
       case "Aqary":
-        return <AqaryInvestmentAndDevelopment />;
+        return <AqaryInternational />;
       case "Flycatch":
         return <FlycatchInfotech />;
       case "Quest":
@@ -64,13 +64,12 @@ const CompaniesBar = props => {
           props.setDescriptionJob(props.DescriptionJob);
           setCompanyNameBackgroundColorGreen(props.CompanyNameBackgroundColorGreen);
         }}
-        className={`flex-1 md:flex-none text-[10px] xs:text-xs sm:text-sm text-center md:text-left hover:text-AAsecondary
-             hover:bg-ResumeButtonHover rounded font-mono  
+        className={`flex-1 md:flex-none text-[10px] xs:text-xs sm:text-sm text-center md:text-left rounded font-mono  
              py-2 px-1 xs:py-3 xs:px-2 md:pl-6 md:px-4 md:w-44 min-w-0 duration-500 transition-all overflow-hidden
              ${
                companyNameBackgroundColorGreen[props.ButtonOrderOfcompanyNameBackgroundColorGreen]
                  ? "bg-AAsecondary bg-opacity-20 text-AAsecondary border-l-2 md:border-l-2 border-b-2 md:border-b-0 border-AAsecondary font-semibold"
-                 : "text-gray-400 hover:text-gray-200"
+                 : "text-gray-400 hover:text-AAsecondary hover:bg-ResumeButtonHover hover:text-gray-200"
              }`}
       >
         {props.CompanyName}
@@ -102,7 +101,7 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col gap-1 xs:gap-2 md:gap-1 justify-center md:justify-start w-full md:w-auto">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Aqary Investment and Development"
+            CompanyName="Aqary International"
             BarPosition={-10}
             BarAvobePosition={0}
             DescriptionJob="Aqary"

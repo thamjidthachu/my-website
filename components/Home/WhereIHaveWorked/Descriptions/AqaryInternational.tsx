@@ -2,7 +2,7 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function AqaryInvestmentAndDevelopment() {
+export default function AqaryInternational() {
   const tasks = [
     {
       text: "Developed and maintained an AI-enhanced HRMS platform using Flask, featuring ATS-driven resume screening and an intelligent chatbot for employee assistance and onboarding support.",
@@ -40,7 +40,7 @@ export default function AqaryInvestmentAndDevelopment() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            AL/ML Engineer <span className="text-AAsecondary">@ Aqary Investment and Development, Abu Dhabi, United Arab Emirates</span>
+            AL/ML Engineer <span className="text-AAsecondary">@ Aqary International Group, Al-Reem Island, Abu Dhabi</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">May 2025– Present</span>
