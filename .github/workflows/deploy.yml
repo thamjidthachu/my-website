@@ -50,8 +50,10 @@ jobs:
           tar -xzf deploy.tar.gz
           rm deploy.tar.gz
           
-          # Install PM2 if not already installed
-          command -v pm2 >/dev/null 2>&1 || npm install -g pm2
+          # Install PM2 if not already installed (using sudo)
+          if ! command -v pm2 &> /dev/null; then
+            sudo npm install -g pm2
+          fi
           
           # Restart or start the application
           pm2 restart website || pm2 start npm --name "website" -- start
