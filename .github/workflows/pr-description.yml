@@ -37,17 +37,23 @@ jobs:
       - name: Update PR body
         run: |
           gh pr edit ${{ github.event.pull_request.number }} \
-            --body "### DESCRIPTION
+            --body "# 📌 Pull Request
+
+            ## Description
             - ${{ github.event.pull_request.title }}
 
-            ### COMMITS
+            ### Commits
             ${COMMITS}
 
-            ### REVIEWERS
+            ### Reviewers
             - ${REVIEWERS}
 
-            ### CHECK LIST
-            - [x] I have performed a self-review of my own code
-            - [x] My changes generate no new warnings
-            - [x] My code follows the style guidelines of this project
-            - [x] I have commented on my code, particularly in hard-to-understand areas"
+            ## Checklist
+            - [x] Code follows project style guidelines
+            - [x] All pep8 standards have been followed
+            - [x] Documentation updated
+            - [x] Tests added/updated
+            - [x] All existing tests pass
+
+            ## Related Issue
+            Fixes #"
