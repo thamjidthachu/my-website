@@ -37,7 +37,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
@@ -69,7 +69,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -134,7 +134,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
               <a href={"https://id.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
@@ -157,7 +157,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -220,7 +220,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
@@ -252,7 +252,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -320,7 +320,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
               <a href={"https://aqaryaaid.com/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
@@ -343,7 +343,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -409,7 +409,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
@@ -441,7 +441,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Development...</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -497,7 +497,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
               <a href={"https://people.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
@@ -520,7 +520,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -569,7 +569,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               {/* <Link href={"/typing"}>
                 <div
                   // onClick={}
@@ -602,7 +602,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -655,7 +655,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
               <a href={"https://www.wearlay.in/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
@@ -678,7 +678,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -726,7 +726,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               <Link href="https://my.um.edu.sa/">
                 <div
                   // onClick={}
@@ -751,7 +751,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -805,7 +805,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
               <Link href={"www.away2gether.com"}>
                 <div
                   className="absolute w-full h-full rounded bg-black
@@ -828,7 +828,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -882,7 +882,7 @@ export default function SomethingIveBuilt() {
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
@@ -914,7 +914,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">On hold...</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
