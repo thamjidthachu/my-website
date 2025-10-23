@@ -8,6 +8,7 @@ import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCant
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
 import Testimonials from "../components/Home/Testimonials/Testimonials";
+import Gallery from "../components/Home/Gallery/Gallery";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
 import Footer from "../components/Footer/Footer";
 import AppContext from "../components/AppContextFolder/AppContext";
@@ -147,6 +148,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <Testimonials /> : <></>}
+          {context.sharedState.finishedLoading ? <Gallery /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
             <Footer githubUrl={"https://github.com/thamjidthachu/my-website"} hideSocialsInDesktop={true} />
