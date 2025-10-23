@@ -46,7 +46,7 @@ const MyName: React.FC<MyNameProps> = props => {
         }}
         className="text-AATextMuted font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Nothing but Creativity.
+        Innovate with code.
       </motion.h2>
 
       <motion.h3
