@@ -2,10 +2,12 @@ name: Build and Test
 on:
   push:
     branches:
+      - develop
       - thachu
   pull_request:
     branches:
       - master
+      - develop
 
 jobs:
   build-and-test:
