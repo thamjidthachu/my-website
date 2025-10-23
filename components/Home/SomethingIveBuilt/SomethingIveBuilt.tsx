@@ -41,13 +41,13 @@ export default function SomethingIveBuilt() {
               <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">In Developing...</span>
+              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
+                <span className="text-AAsecondary text-xl">Access Limited!!</span>
               </div>
 
               <Img src={"/projects/aqarycrm.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -66,14 +66,14 @@ export default function SomethingIveBuilt() {
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <span className="text-AAsecondary text-base">Access Limited!!</span>
                 <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary CRM
@@ -137,8 +137,8 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://id.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/aqaryidentity.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -161,7 +161,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Identity Service
@@ -224,13 +224,13 @@ export default function SomethingIveBuilt() {
               <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">In Developing...</span>
+              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
+                <span className="text-AAsecondary text-xl">Access Limited!!</span>
               </div>
 
               <Img src={"/projects/aqaryconsole.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -249,14 +249,14 @@ export default function SomethingIveBuilt() {
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     App Console
@@ -323,8 +323,8 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://aqaryaaid.com/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/aqaryrealestate.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -347,7 +347,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary API Gateway
@@ -413,13 +413,13 @@ export default function SomethingIveBuilt() {
               <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">In Developing...</span>
+              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
+                <span className="text-AAsecondary text-xl">In Development...</span>
               </div>
 
               <Img src={"/projects/azurehorizon.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -438,14 +438,14 @@ export default function SomethingIveBuilt() {
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Developing...</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Development...</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <span className="text-AAsecondary text-base">Development In Progress...</span>
                 <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Azure Horizon
@@ -500,8 +500,8 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://people.aqaryone.com/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/hrmsaqary.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -524,7 +524,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Currently Developing...</span>
+                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://www.https://people.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Aqary One
@@ -581,8 +581,8 @@ export default function SomethingIveBuilt() {
               <a href="https://www.exploreworld.com/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -658,8 +658,8 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://www.wearlay.in/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/projects/wearlay.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -730,8 +730,8 @@ export default function SomethingIveBuilt() {
               <Link href="https://my.um.edu.sa/">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
 
@@ -808,8 +808,8 @@ export default function SomethingIveBuilt() {
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <Link href={"www.away2gether.com"}>
                 <div
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
               <Img src={"/projects/away2gether.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -886,12 +886,12 @@ export default function SomethingIveBuilt() {
               <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded 
-           transition-opacity opacity-0 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
+              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
                 <span className="text-AAsecondary text-xl">On Hold...</span>
               </div>
 
