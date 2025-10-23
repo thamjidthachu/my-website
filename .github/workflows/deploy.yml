@@ -1,103 +1,54 @@
 name: Deploy to Production
+
 on:
   push:
     branches:
       - master
-  # Only deploy to production when changes are merged to master
-  # For develop branch deployments, create a separate workflow
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '22'
-        cache: 'npm'
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build Next.js application
-      run: npm run build
-      env:
-        NODE_ENV: production
-
-    - name: Create deployment package
-      run: |
-        echo "📦 Creating deployment package..."
-        # Include all necessary files for Next.js production
-        tar -czf deploy.tar.gz \
-          .next \
-          package.json \
-          package-lock.json \
-          next.config.js \
-          public \
-          node_modules \
-          next-env.d.ts \
-          tsconfig.json \
-          postcss.config.js \
-          tailwind.config.cjs
-        
-        echo "✅ Deployment package created"
-        ls -lh deploy.tar.gz
-
-    - name: Deploy to server via SCP
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.PRODUCTION_HOST }}
-        username: ${{ secrets.PRODUCTION_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        source: "deploy.tar.gz"
-        target: ${{ secrets.PRODUCTION_PATH }}
-
-    - name: Extract and restart application on server
+    - name: Deploy to Production Server
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.PRODUCTION_HOST }}
         username: ${{ secrets.PRODUCTION_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          set -e  # Exit on any error
+          set -e
           
-          echo "📦 Navigating to deployment directory..."
+          echo "🚀 Starting deployment..."
+          
+          # Navigate to project directory
           cd ${{ secrets.PRODUCTION_PATH }}
           
-          echo "📂 Extracting deployment package..."
-          tar -xzf deploy.tar.gz
-          rm deploy.tar.gz
+          # Pull latest changes from GitHub
+          echo "📥 Pulling latest changes from master branch..."
+          git fetch origin
+          git reset --hard origin/master
           
-          echo "🔍 Checking PM2 installation..."
-          if ! command -v pm2 &> /dev/null; then
-            echo "📥 Installing PM2 globally..."
-            sudo npm install -g pm2
-          else
-            echo "✅ PM2 is already installed"
-          fi
+          # Install dependencies
+          echo "📦 Installing dependencies..."
+          yarn install
           
-          echo "🔄 Restarting application..."
+          # Build the application
+          echo "🔨 Building application..."
+          yarn build
+          
+          # Restart PM2 process
+          echo "♻️  Restarting application..."
           if pm2 list | grep -q "website"; then
-            echo "♻️  Restarting existing PM2 process..."
             pm2 restart website
           else
-            echo "🚀 Starting new PM2 process..."
-            pm2 start npm --name "website" -- start
+            pm2 start yarn --name "website" -- start
           fi
           
           pm2 save
-          pm2 list
           
           echo "✅ Deployment completed successfully!"
-
-    - name: Health check
-      run: |
-        sleep 10
-        echo "Deployment completed. Please verify at your server URL."
+          pm2 list
 
     - name: Cleanup local artifacts
       if: always()
