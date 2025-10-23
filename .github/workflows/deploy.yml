@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - develop
 
 jobs:
   deploy:
@@ -28,7 +29,22 @@ jobs:
 
     - name: Create deployment package
       run: |
-        tar -czf deploy.tar.gz .next package.json package-lock.json next.config.js public node_modules
+        echo "📦 Creating deployment package..."
+        # Include all necessary files for Next.js production
+        tar -czf deploy.tar.gz \
+          .next \
+          package.json \
+          package-lock.json \
+          next.config.js \
+          public \
+          node_modules \
+          next-env.d.ts \
+          tsconfig.json \
+          postcss.config.js \
+          tailwind.config.cjs
+        
+        echo "✅ Deployment package created"
+        ls -lh deploy.tar.gz
 
     - name: Deploy to server via SCP
       uses: appleboy/scp-action@master
@@ -46,30 +62,62 @@ jobs:
         username: ${{ secrets.PRODUCTION_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
+          set -e  # Exit on any error
+          
+          echo "📦 Navigating to deployment directory..."
           cd ${{ secrets.PRODUCTION_PATH }}
+          
+          echo "📂 Extracting deployment package..."
           tar -xzf deploy.tar.gz
           rm deploy.tar.gz
           
-          # Install PM2 if not already installed (using sudo)
+          echo "🔍 Checking PM2 installation..."
           if ! command -v pm2 &> /dev/null; then
+            echo "📥 Installing PM2 globally..."
             sudo npm install -g pm2
+          else
+            echo "✅ PM2 is already installed"
           fi
           
-          # Restart or start the application
-          pm2 restart website || pm2 start npm --name "website" -- start
-          pm2 save
+          echo "🔄 Restarting application..."
+          if pm2 list | grep -q "website"; then
+            echo "♻️  Restarting existing PM2 process..."
+            pm2 restart website
+          else
+            echo "🚀 Starting new PM2 process..."
+            pm2 start npm --name "website" -- start
+          fi
           
-          echo "Deployment completed successfully!"
+          pm2 save
+          pm2 list
+          
+          echo "✅ Deployment completed successfully!"
 
     - name: Health check
       run: |
         sleep 10
         echo "Deployment completed. Please verify at your server URL."
 
+    - name: Cleanup local artifacts
+      if: always()
+      run: |
+        if [ -f deploy.tar.gz ]; then
+          rm deploy.tar.gz
+          echo "🧹 Cleaned up deployment artifacts"
+        fi
+
     - name: Notify success
       if: success()
-      run: echo "✅ Deployment to production completed successfully"
+      run: |
+        echo "✅ Deployment to production completed successfully"
+        echo "🌐 Your application should be live at your server"
+        echo "📊 Branch: ${{ github.ref_name }}"
+        echo "📝 Commit: ${{ github.sha }}"
 
     - name: Notify failure
       if: failure()
-      run: echo "❌ Deployment to production failed"
+      run: |
+        echo "❌ Deployment to production failed"
+        echo "📊 Branch: ${{ github.ref_name }}"
+        echo "📝 Commit: ${{ github.sha }}"
+        echo "🔍 Check the logs above for details"
