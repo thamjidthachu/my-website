@@ -36,7 +36,7 @@ export default function AqaryInternational() {
 
   return (
     <>
-      <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
+      <div className="flex flex-col space-y-5 max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl 3xl:max-w-5xl 4xl:max-w-6xl px-4 md:px-0">
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">

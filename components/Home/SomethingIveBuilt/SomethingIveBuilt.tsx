@@ -69,7 +69,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -157,10 +157,10 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1  z-10">
+              <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
@@ -252,7 +252,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -343,10 +343,10 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1  z-10">
+              <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
@@ -441,7 +441,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Development...</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -520,10 +520,10 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1  z-10">
+              <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
                 <a href="https://www.https://people.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
@@ -532,7 +532,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   At <span className="text-AAsecondary">Aqary Investments and Development</span>, I played a key role in designing and developing real-time event subscription 
                   and notification services using <span className="text-AAsecondary">Webhooks and WebSockets</span>, significantly enhancing system responsiveness 
                   and improving the employee experience. I also developed an <span className="text-AAsecondary">AI-powered</span> HRMS platform that integrated 
@@ -602,7 +602,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -614,7 +614,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left ">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   I had the opportunity to spearhead the backend development of a travel aggregator platform, leveraging a{" "}
                   <span className="text-AAsecondary"> microservices architecture</span>. My focus was on integrating{" "}
                   <span className="text-AAsecondary"> payment gateways</span> and{" "}
@@ -678,10 +678,10 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1  z-10">
+              <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
                 <a href="https://www.wearlay.in/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
@@ -690,7 +690,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   I led the backend development of a CRM & Inventory system, built with{" "}
                   <span className="text-AAsecondary"> Django</span> and{" "}
                   <span className="text-AAsecondary"> Django REST Framework</span>. The platform automated{" "}
@@ -751,7 +751,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -828,10 +828,10 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 3xl:col-span-6 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1  z-10">
+              <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
                 <Link href={"https://my.away2gether.com"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
@@ -840,7 +840,7 @@ export default function SomethingIveBuilt() {
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left ">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   I solely developed the backend of a{" "}
                   <span className="text-AAsecondary"> hospitality platform</span> using{" "}
                   <span className="text-AAsecondary"> Django</span>,{" "}
@@ -914,7 +914,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">On hold...</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 3xl:col-start-7 4xl:col-span-7 4xl:col-start-5 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
