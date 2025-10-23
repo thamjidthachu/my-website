@@ -90,6 +90,26 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           &gt; 04. <span className="text-AATextSecondary hover:cursor-pointer hover:text-AATextPrimary duration-300">Testimonials</span>
         </ReactScrollLink>
       </motion.div>
+      <motion.div
+        initial={{
+          y: -40,
+          opacity: 0,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          type: "spring",
+          duration: props.finishedLoading ? 0 : 0.6,
+          delay: props.finishedLoading ? 0 : 1.1,
+        }}
+        className="text-AAAccent"
+      >
+        <ReactScrollLink to="GallerySection" spy={true} smooth={true} offset={-100} duration={200}>
+          &gt; 05. <span className="text-AATextSecondary hover:cursor-pointer hover:text-AATextPrimary duration-300">Gallery</span>
+        </ReactScrollLink>
+      </motion.div>
       <motion.span
         initial={{
           y: -40,
@@ -107,7 +127,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         className="text-AAAccent"
       >
          <ReactScrollLink to="GetInTouchSection" spy={true} smooth={true} offset={-100} duration={200}>
-         &gt; 05. <span className="text-AATextSecondary  hover:cursor-pointer hover:text-AATextPrimary duration-300">Contact</span>
+         &gt; 06. <span className="text-AATextSecondary  hover:cursor-pointer hover:text-AATextPrimary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
       <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
