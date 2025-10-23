@@ -1,0 +1,73 @@
+name: Deploy to Production
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build Next.js application
+      run: npm run build
+      env:
+        NODE_ENV: production
+
+    - name: Create deployment package
+      run: |
+        tar -czf deploy.tar.gz .next package.json package-lock.json next.config.js public node_modules
+
+    - name: Deploy to server via SCP
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.PRODUCTION_HOST }}
+        username: ${{ secrets.PRODUCTION_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        source: "deploy.tar.gz"
+        target: ${{ secrets.PRODUCTION_PATH }}
+
+    - name: Extract and restart application on server
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.PRODUCTION_HOST }}
+        username: ${{ secrets.PRODUCTION_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          cd ${{ secrets.PRODUCTION_PATH }}
+          tar -xzf deploy.tar.gz
+          rm deploy.tar.gz
+          
+          # Install PM2 if not already installed
+          command -v pm2 >/dev/null 2>&1 || npm install -g pm2
+          
+          # Restart or start the application
+          pm2 restart website || pm2 start npm --name "website" -- start
+          pm2 save
+          
+          echo "Deployment completed successfully!"
+
+    - name: Health check
+      run: |
+        sleep 10
+        echo "Deployment completed. Please verify at your server URL."
+
+    - name: Notify success
+      if: success()
+      run: echo "✅ Deployment to production completed successfully"
+
+    - name: Notify failure
+      if: failure()
+      run: echo "❌ Deployment to production failed"
