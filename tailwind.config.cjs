@@ -24,24 +24,24 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hero-pattern': 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #252547 75%, #0f0f23 100%)',
-        'card-gradient': 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+        'hero-pattern': 'linear-gradient(135deg, #000000 0%, #1d1d1f 25%, #161617 50%, #1d1d1f 75%, #000000 100%)',
+        'card-gradient': 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)',
       },
       colors: {
-        AAprimary: "#0f0f23",
-        AAsecondary: "#ff6b6b",
-        AAAccent: "#4ecdc4",
-        AAError: "#ff6b6b",
-        AAtertiary: "#1a1a2e",
-        AASurface: "#16213e",
-        AATextPrimary: "#e94560",
-        AATextSecondary: "#f5f5f5",
-        AATextMuted: "#a0a0a0",
-        ResumeButtonHover: "#ff5252",
-        MobileNavBarColor: "#1a1a2e",
-        StartupBackground: "#0f0f23",
-        DotPattern: "#333366",
-        TextureOverlay: "#252547",
+        AAprimary: "#000000",          // Pure black background (Apple/Samsung style)
+        AAsecondary: "#ffffff",        // Pure white accent
+        AAAccent: "#f5f5f7",          // Light gray (Apple's light gray)
+        AAError: "#86868b",           // Mid gray for errors
+        AAtertiary: "#1d1d1f",        // Dark gray surface (Apple's dark surface)
+        AASurface: "#161617",         // Slightly lighter black for cards
+        AATextPrimary: "#f5f5f7",     // Off-white text (Apple style)
+        AATextSecondary: "#ffffff",   // Pure white text
+        AATextMuted: "#86868b",       // Gray muted text (Apple's gray)
+        ResumeButtonHover: "#ffffff", // White hover
+        MobileNavBarColor: "#000000", // Black navbar
+        StartupBackground: "#000000", // Black startup
+        DotPattern: "#1d1d1f",        // Dark gray dots
+        TextureOverlay: "#161617",    // Subtle dark overlay
       },
       screens: {
         sm: "640px",
