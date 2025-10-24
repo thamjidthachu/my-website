@@ -160,7 +160,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  I'm currently building <span className="text-AAsecondary">Aqary CRM</span>, a comprehensive{" "}
+                  I&apos;m currently building <span className="text-AAsecondary">Aqary CRM</span>, a comprehensive{" "}
                   <span className="text-AAsecondary">real estate management platform</span> designed to streamline{" "}
                   <span className="text-AAsecondary">client relationships</span>,{" "}
                   <span className="text-AAsecondary">lead tracking</span>, and{" "}
@@ -248,7 +248,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I've been developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
+                  I&apos;ve been developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
                   <span className="text-AAsecondary">core authentication and authorization engine</span> of the{" "}
                   <span className="text-AAsecondary">Aqary ecosystem</span>. It manages{" "}
                   <span className="text-AAsecondary">user onboarding</span>,{" "}
