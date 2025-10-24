@@ -37,6 +37,12 @@ jobs:
           echo "🔨 Building application..."
           yarn build
           
+          # Check if PM2 is installed, if not install it
+          if ! command -v pm2 &> /dev/null; then
+            echo "📦 Installing PM2..."
+            npm install -g pm2
+          fi
+          
           # Restart PM2 process
           echo "♻️  Restarting application..."
           if pm2 list | grep -q "website"; then
