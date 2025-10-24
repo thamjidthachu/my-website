@@ -92,7 +92,7 @@ const MyName: React.FC<MyNameProps> = props => {
         className="mt-12"
       >
         <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
-          <button className="backdrop-blur-xl bg-white/10 text-AATextSecondary border border-white/20 rounded-xl px-6 sm:px-10 py-4 sm:py-5 hover:bg-white/20 hover:border-AAAccent/60 hover:shadow-2xl hover:shadow-AAAccent/30 transition-all duration-500 ease-out font-medium tracking-wide hover:scale-105 relative overflow-hidden group">
+          <button className="backdrop-blur-xl bg-white/10 text-AATextSecondary border-2 border-gray-400 rounded-xl px-6 sm:px-10 py-4 sm:py-5 hover:bg-white/20 hover:border-AAAccent hover:shadow-2xl hover:shadow-AAAccent/30 transition-all duration-500 ease-out font-medium tracking-wide hover:scale-105 relative overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-50 group-hover:opacity-70 transition-opacity duration-500"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-AAAccent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <span className="relative z-10">Check out my resume!</span>
@@ -101,7 +101,6 @@ const MyName: React.FC<MyNameProps> = props => {
       </motion.div>
 
       {/* Optional Scroll Down Indicator Placeholder */}
-      {/* You would implement this with its own motion.div and styling/icon if this hero is full viewport height */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

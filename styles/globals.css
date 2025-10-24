@@ -28,6 +28,27 @@
   body::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, #000000, #1d1d1f);
   }
+
+  /* Custom scrollbar for work section */
+  .work-section-scrollbar::-webkit-scrollbar {
+    width: 0.4em;
+    height: 0.4em;
+    background-color: #e5e5e5;
+  }
+
+  .work-section-scrollbar::-webkit-scrollbar-thumb {
+    background: #1d1d1f;
+    border-radius: 40px;
+  }
+  
+  .work-section-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }
+
+  .work-section-scrollbar::-webkit-scrollbar-track {
+    background: #f5f5f7;
+    border-radius: 40px;
+  }
 }
 html,
 body {
