@@ -40,21 +40,28 @@ jobs:
           # Check if PM2 is installed, if not install it
           if ! command -v pm2 &> /dev/null; then
             echo "📦 Installing PM2..."
-            npm install -g pm2
+            sudo npm install -g pm2 || echo "⚠️  PM2 installation failed, will use npx pm2"
           fi
           
           # Restart PM2 process
           echo "♻️  Restarting application..."
-          if pm2 list | grep -q "website"; then
-            pm2 restart website
-          else
-            pm2 start yarn --name "website" -- start
+          
+          # Use pm2 if available, otherwise use npx pm2
+          PM2_CMD="pm2"
+          if ! command -v pm2 &> /dev/null; then
+            PM2_CMD="npx pm2"
           fi
           
-          pm2 save
+          if $PM2_CMD list | grep -q "website"; then
+            $PM2_CMD restart website
+          else
+            $PM2_CMD start yarn --name "website" -- start
+          fi
+          
+          $PM2_CMD save
           
           echo "✅ Deployment completed successfully!"
-          pm2 list
+          $PM2_CMD list
 
     - name: Cleanup local artifacts
       if: always()
