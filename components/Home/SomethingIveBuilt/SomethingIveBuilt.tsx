@@ -30,7 +30,7 @@ export default function SomethingIveBuilt() {
       <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         {/* // TODO : to here  */}        
 
-        {/* // ? Project 1 Aqary CRM */}
+        {/* // ? Project 1 Azure Horizon */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
@@ -47,10 +47,10 @@ export default function SomethingIveBuilt() {
               </a>
 
               <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
-                <span className="text-AAsecondary text-xl">Access Limited!!</span>
+                <span className="text-AAsecondary text-xs bg-AAprimary px-2 py-1 rounded">🚧In Development...👷</span>
               </div>
 
-              <Img src={"/projects/aqarycrm.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/azurehorizon.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -61,28 +61,106 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
                 <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqarycrm-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/azurehorizon-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Prestigious Project</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Access Limited!!</span>
-                <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
+                <span className="text-AAsecondary text-base">Personal Passion Project</span>
+                <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Azure Horizon
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  I initiated <span className="text-AAsecondary">Azure Horizon</span> in 2021 as a{" "}
+                  <span className="text-AAsecondary">demo project</span> for my first job, which
+                  later grew into a <span className="text-AAsecondary">personal passion project</span>.
+                  Originally built with <span className="text-AAsecondary">Django templates</span>,
+                  it has since evolved into a modern stack using{" "}
+                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
+                  <span className="text-AAsecondary">Next.js</span>. The vision is to transform
+                  this platform into the official digital presence of a{" "}
+                  <span className="text-AAsecondary">real resort</span> under the same name,
+                  combining <span className="text-AAsecondary">scalability</span> and{" "}
+                  <span className="text-AAsecondary">future-ready design</span> to bring the dream
+                  of <span className="text-AAsecondary">Azure Horizon Resort</span> to life.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Python/Django</span>
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">PostgreSQL</span>
+                <span className="pr-4 z-10">Celery</span>
+                <span className="pr-4 z-10">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10">Docker</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+              <GithubIcon link="https://github.com/thamjidthachu/azure-horizon" />
+              <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
+                <ExternalLink url={""} router={router} />
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ? Project 2 Aqary CRM */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
+          {/* Left image */}
+          <div
+            className="hidden z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
+              <a href={"https://crm.aqaryone.com"} target="_blank" rel="noreferrer">
+                <div
+                  className="absolute w-full h-full rounded bg-black
+           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img src={"/projects/aqarycrm.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
+                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
+                <Img src={"/projects/aqarycrm-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1 z-10">
+                <span className="text-AAsecondary text-base">Internal Web Application</span>
+                <a href="https://crm.aqaryone.com" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary CRM
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I’m currently building <span className="text-AAsecondary">Aqary CRM</span>, a comprehensive{" "}
+                <p className="text-gray-300 md:text-gray-400 text-left">
+                  I'm currently building <span className="text-AAsecondary">Aqary CRM</span>, a comprehensive{" "}
                   <span className="text-AAsecondary">real estate management platform</span> designed to streamline{" "}
                   <span className="text-AAsecondary">client relationships</span>,{" "}
                   <span className="text-AAsecondary">lead tracking</span>, and{" "}
@@ -107,7 +185,7 @@ export default function SomethingIveBuilt() {
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
+               text-sm font-Text2"
               >
                 <span className="pr-4 z-10">Python/Flask</span>
                 <span className="pr-4 z-10">PostgreSQL</span>
@@ -117,7 +195,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Azure ServiceBus</span>
                 <span className="pr-4 z-10">Docker</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+              <div className="z-10 flex fle-row space-x-5 ">
               <GithubIcon link="https://github.com/thamjidthachu" />
               <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
                 <ExternalLink url={""} router={router} />
@@ -127,20 +205,21 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 Aqary Identity */}
-        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
+        {/* // ?  Project 3 Aqary Identity */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
             className="hidden z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
-              <a href={"https://id.aqaryone.com/"} target="_blank" rel="noreferrer">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
+              <a href="https://id.aqaryone.com/" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
+
               <Img src={"/projects/aqaryidentity.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
@@ -148,20 +227,19 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
                 <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqaryidentity-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/aqaryidentity-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
-
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
+                <span className="text-AAsecondary text-base">Internal Web Application.</span>
                 <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Identity Service
@@ -170,7 +248,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I’ve been developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
+                  I've been developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
                   <span className="text-AAsecondary">core authentication and authorization engine</span> of the{" "}
                   <span className="text-AAsecondary">Aqary ecosystem</span>. It manages{" "}
                   <span className="text-AAsecondary">user onboarding</span>,{" "}
@@ -193,7 +271,7 @@ export default function SomethingIveBuilt() {
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+               text-sm font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">Python/Flask</span>
                 <span className="pr-4 z-10">PostgreSQL</span>
@@ -203,7 +281,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Azure BusService</span>
                 <span className="pr-4 z-10">Docker</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/thamjidthachu" />
                 <a href="https://www.https://id.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
@@ -213,26 +291,20 @@ export default function SomethingIveBuilt() {
           </div>
         </div>        
 
-        {/* // ? Project 3 Aqary App Console */}
-        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
+        {/* // ? Project 4 Aqary App Console */}
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
             className="hidden z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
-              <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
+              <a href={"https://console.aqaryone.com"} target="_blank" rel="noreferrer">
                 <div
-                  // onClick={}
                   className="absolute w-full h-full rounded bg-black
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
-                <span className="text-AAsecondary text-xl">Access Limited!!</span>
-              </div>
-
               <Img src={"/projects/aqaryconsole.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
@@ -240,23 +312,20 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full z-0 md:hidden">
+            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
                 <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqaryconsole-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/aqaryconsole-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
-              <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Access Limited!!</span>
-            </div>
+
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
+            col-span-8 flex flex-col items-start space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
+              <div className="flex flex-col space-y-1 z-10">
+                <span className="text-AAsecondary text-base">Internal Web Application</span>
                 <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     App Console
@@ -313,14 +382,14 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 4 Aqary API Gateway */}
+        {/* // ?  Project 5 Aqary API Gateway */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
+            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
               <a href={"https://aqaryaaid.com/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
@@ -334,7 +403,7 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full z-0 md:hidden md:order-2">
+            <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
                 <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
@@ -343,11 +412,11 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
+                <span className="text-AAsecondary text-base">Internal Web Application.</span>
                 <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary API Gateway
@@ -385,14 +454,11 @@ export default function SomethingIveBuilt() {
                 </p>
 
               </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
-              >
+              <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end">
                 <span className="pr-4 z-10">Python/Flask</span>
                 <span className="pr-4 z-10">Docker</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/thamjidthachu" />
                 <a href="https://www.https://aqaryaid.com/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
@@ -402,108 +468,21 @@ export default function SomethingIveBuilt() {
           </div>
         </div>        
 
-        {/* // ? Project 5 Azure Horizon */}
+        {/* // ? Project 6 Hrms Aqary */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
             className="hidden z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
-              <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-black
-           transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </a>
-
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
-                <span className="text-AAsecondary text-xl">In Development...</span>
-              </div>
-
-              <Img src={"/projects/azurehorizon.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
-            </div>
-          </div>
-
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full z-0 md:hidden">
-              <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/azurehorizon-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
-              </div>
-            </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
-              <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In Development...</span>
-            </div>
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
-            >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Development In Progress...</span>
-                <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Azure Horizon
-                  </span>
-                </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I initiated <span className="text-AAsecondary">Azure Horizon</span> in 2021 as a{" "}
-                  <span className="text-AAsecondary">demo project</span> for my first job, which
-                  later grew into a <span className="text-AAsecondary">personal passion project</span>.
-                  Originally built with <span className="text-AAsecondary">Django templates</span>,
-                  it has since evolved into a modern stack using{" "}
-                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
-                  <span className="text-AAsecondary">Next.js</span>. The vision is to transform
-                  this platform into the official digital presence of a{" "}
-                  <span className="text-AAsecondary">real resort</span> under the same name,
-                  combining <span className="text-AAsecondary">scalability</span> and{" "}
-                  <span className="text-AAsecondary">future-ready design</span> to bring the dream
-                  of <span className="text-AAsecondary">Azure Horizon Resort</span> to life.
-                </p>
-
-              </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
-              >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">PostgreSQL</span>
-                <span className="pr-4 z-10">Celery</span>
-                <span className="pr-4 z-10">RabbitMQ/Redis</span>
-                <span className="pr-4 z-10">Docker</span>
-              </ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-              <GithubIcon link="https://github.com/thamjidthachu/azure-horizon" />
-              <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
-                <ExternalLink url={""} router={router} />
-              </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* // ?  Project 6 Hrms Aqary */}
-        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
-          {/* Left image */}
-          <div
-            className="hidden z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
-          >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 3xl:col-start-7 3xl:col-span-6 4xl:col-start-8 4xl:col-span-5">
-              <a href={"https://people.aqaryone.com/"} target="_blank" rel="noreferrer">
+              <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-black
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
+
               <Img src={"/projects/hrmsaqary.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
@@ -515,24 +494,23 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
                 <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/hrmsaqary-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/hrmsaqary-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
-
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1 
+            col-span-8 flex flex-col items-start space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Currently Access Limited!!</span>
-                <a href="https://www.https://people.aqaryone.com/" target="_blank" rel="noopener noreferrer">
+              <div className="flex flex-col space-y-1 z-10">
+                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Aqary One
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                <p className="text-gray-300 md:text-gray-400 text-left">
                   At <span className="text-AAsecondary">Aqary Investments and Development</span>, I played a key role in designing and developing real-time event subscription 
                   and notification services using <span className="text-AAsecondary">Webhooks and WebSockets</span>, significantly enhancing system responsiveness 
                   and improving the employee experience. I also developed an <span className="text-AAsecondary">AI-powered</span> HRMS platform that integrated 
@@ -540,10 +518,7 @@ export default function SomethingIveBuilt() {
                   These solutions streamlined HR workflows and showcased our commitment to delivering intelligent, scalable, and user-centric systems.
                 </p>
               </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
-              >
+              <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2">
                 <span className="pr-4 z-10">Python/Flask</span>
                 <span className="pr-4 z-10">PyTorch</span>
                 <span className="pr-4 z-10">Transformers</span>
@@ -553,7 +528,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Celery</span>
                 <span className="pr-4 z-10">RabbitMQ/Redis</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
+              <div className="z-10 flex fle-row space-x-5">
                 <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
@@ -606,7 +581,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
+                <span className="text-AAsecondary text-base">Travel and Tourism</span>
                 <a href="https://www.exploreworld.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Explore World
@@ -679,10 +654,10 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
+            col-span-8 flex flex-col items-start space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
+              <div className="flex flex-col space-y-1 z-10">
+                <span className="text-AAsecondary text-base">CRM & Inventory Management</span>
                 <a href="https://www.wearlay.in/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Wearlay
@@ -690,7 +665,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                <p className="text-gray-300 md:text-gray-400 text-left">
                   I led the backend development of a CRM & Inventory system, built with{" "}
                   <span className="text-AAsecondary"> Django</span> and{" "}
                   <span className="text-AAsecondary"> Django REST Framework</span>. The platform automated{" "}
@@ -703,7 +678,7 @@ export default function SomethingIveBuilt() {
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+               text-sm font-Text2"
               >
                 <span className="pr-4 z-10">Python/Django</span>
                 <span className="pr-4 z-10">Django Rest Framework</span>
@@ -755,7 +730,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
+                <span className="text-AAsecondary text-base">Learning & Management System</span>
                 <Link href="https://my.um.edu.sa/">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Al Maarefa
@@ -829,10 +804,10 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start md:items-end space-y-3 md:order-1"
+            col-span-8 flex flex-col items-start space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
+              <div className="flex flex-col space-y-1 z-10">
+                <span className="text-AAsecondary text-base">Hospitality Management</span>
                 <Link href={"https://my.away2gether.com"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Away2gether
@@ -840,7 +815,7 @@ export default function SomethingIveBuilt() {
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                <p className="text-gray-300 md:text-gray-400 text-left">
                   I solely developed the backend of a{" "}
                   <span className="text-AAsecondary"> hospitality platform</span> using{" "}
                   <span className="text-AAsecondary"> Django</span>,{" "}
@@ -858,7 +833,7 @@ export default function SomethingIveBuilt() {
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+               text-sm font-Text2"
               >
                 <span className="pr-4 z-10">Python/Django</span>
                 <span className="pr-4 z-10">CMS</span>
@@ -918,7 +893,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Recent Project</span>
+                <span className="text-AAsecondary text-base">Innovative E-Commerce Platform</span>
                 <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Redalion
