@@ -29,39 +29,27 @@ jobs:
           git fetch origin
           git reset --hard origin/master
           
-          # Install dependencies
-          echo "📦 Installing dependencies..."
-          yarn install
+          # Stop and remove existing containers
+          echo "� Stopping existing containers..."
+          docker-compose down || true
           
-          # Build the application
-          echo "🔨 Building application..."
-          yarn build
+          # Build and start containers
+          echo "🔨 Building and starting Docker containers..."
+          docker-compose up --build -d
           
-          # Check if PM2 is installed, if not install it
-          if ! command -v pm2 &> /dev/null; then
-            echo "📦 Installing PM2..."
-            sudo npm install -g pm2 || echo "⚠️  PM2 installation failed, will use npx pm2"
-          fi
+          # Wait for container to be healthy
+          echo "⏳ Waiting for container to be ready..."
+          sleep 10
           
-          # Restart PM2 process
-          echo "♻️  Restarting application..."
+          # Check container status
+          echo "📊 Container status:"
+          docker-compose ps
           
-          # Use pm2 if available, otherwise use npx pm2
-          PM2_CMD="pm2"
-          if ! command -v pm2 &> /dev/null; then
-            PM2_CMD="npx pm2"
-          fi
-          
-          if $PM2_CMD list | grep -q "website"; then
-            $PM2_CMD restart website
-          else
-            $PM2_CMD start yarn --name "website" -- start
-          fi
-          
-          $PM2_CMD save
+          # Show recent logs
+          echo "📝 Recent logs:"
+          docker-compose logs --tail=50 frontend
           
           echo "✅ Deployment completed successfully!"
-          $PM2_CMD list
 
     - name: Cleanup local artifacts
       if: always()
