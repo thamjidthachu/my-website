@@ -189,20 +189,23 @@ export default function Testimonials() {
             </a>
             
             {/* Card with gradient background - reduced height */}
-            <div className="bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl p-6 pt-16 pb-6 w-full flex flex-col items-center shadow-[0_8px_30px_rgba(0,0,0,0.08)] group hover:shadow-[0_20px_60px_rgba(0,0,0,0.15)] hover:-translate-y-2 transition-all duration-500">
-              {/* Quote icon */}
-              <div className="text-cyan-400 text-4xl font-serif mb-2 opacity-60">"</div>
+            <div className="bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl p-6 pt-16 pb-6 w-full flex flex-col items-center shadow-[0_8px_30px_rgba(0,0,0,0.08)] group hover:shadow-[0_20px_60px_rgba(0,0,0,0.15)] hover:-translate-y-2 transition-all duration-500 relative">
               
-              {/* Message */}
-              <p className="text-sm text-center mb-3 text-gray-700 leading-relaxed px-2">
-                {t.message}
-              </p>
-              
-              {/* Quote icon bottom */}
-              <div className="text-cyan-400 text-4xl font-serif mb-3 opacity-60 rotate-180">"</div>
+              {/* Message with quotes */}
+              <div className="relative w-full px-4">
+                {/* Opening Quote - top left of text (mirrored) */}
+                <span className="absolute -top-8 left-4 text-5xl font-serif text-cyan-400 opacity-40 leading-none scale-x-[-1]">,,</span>
+                
+                <p className="text-sm text-center text-gray-700 leading-relaxed px-6">
+                  {t.message}
+                </p>
+                
+                {/* Closing Quote - bottom right of text */}
+                <span className="absolute -bottom-1 right-4 text-5xl font-serif text-cyan-400 opacity-40 leading-none">,,</span>
+              </div>
               
               {/* Name and Role */}
-              <div className="text-center">
+              <div className="text-center mt-6">
                 <a
                   href={t.profileUrl}
                   target="_blank"
