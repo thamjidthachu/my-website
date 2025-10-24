@@ -4,7 +4,7 @@ import { Link as ReactScrollLink } from "react-scroll";
 
 export default function DesktopMenu(props: { finishedLoading: boolean; isOnDarkSection?: boolean }) {
   const textColor = props.isOnDarkSection ? "text-white" : "text-AATextSecondary";
-  const hoverColor = props.isOnDarkSection ? "hover:text-gray-300" : "hover:text-AATextPrimary";
+  const hoverColor = props.isOnDarkSection ? "hover:text-gray-700" : "hover:text-AATextPrimary";
   
   return (
     <div className="font-mono text-xs md:flex hidden flex-row items-center space-x-8 ">

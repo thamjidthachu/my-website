@@ -68,7 +68,7 @@ const CompaniesBar = props => {
              ${
                companyNameBackgroundColorGreen[props.ButtonOrderOfcompanyNameBackgroundColorGreen]
                  ? "bg-AAsecondary bg-opacity-20 text-AAsecondary border-l-2 md:border-l-2 border-b-2 md:border-b-0 border-AAsecondary font-semibold"
-                 : "text-gray-400 hover:text-AAsecondary hover:bg-ResumeButtonHover hover:text-gray-200"
+                 : "text-gray-700 hover:text-AAsecondary hover:bg-ResumeButtonHover hover:text-gray-700"
              }`}
       >
         {props.CompanyName}

@@ -37,7 +37,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             grown into over <span className="text-AATextPrimary font-medium">4 years of professional experience</span> crafting web
             applications and data-driven platforms using Django, Flask, and modern AI tools.
           </div>
-          <div className="font-Header text-gray-600 text-justify leading-relaxed">
+          <div className="font-Header text-gray-700 text-justify leading-relaxed">
             Over the years, I&apos;ve had the opportunity to work across diverse domains – from{" "}
             <span className="text-gray-900 font-medium">HR management systems</span> and{" "}
             <span className="text-gray-900 font-medium">travel & hospitality platforms</span> to{" "}
@@ -48,7 +48,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             <span className="text-gray-900 font-medium">ATS checks</span>, and{" "}
             <span className="text-gray-900 font-medium">chatbots</span> to enhance enterprise platforms.
           </div>
-          <div className="font-Header text-gray-600 text-justify leading-relaxed">
+          <div className="font-Header text-gray-700 text-justify leading-relaxed">
             Some of my favorite projects include <span className="text-gray-900 font-medium">Wearlay</span>, an inventory and CRM
             system, <span className="text-gray-900 font-medium">Explore World</span>, a large-scale tourism aggregator, and{" "}
             <span className="text-gray-900 font-medium">Redalion</span>, an e-commerce platform linking QR-coded medallions to

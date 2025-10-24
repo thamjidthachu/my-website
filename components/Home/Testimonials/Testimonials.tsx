@@ -212,7 +212,7 @@ export default function Testimonials() {
                   {t.name}
                 </a>
                 {t.role && (
-                  <span className="block text-xs text-gray-500 mt-1">{t.role}</span>
+                  <span className="block text-xs text-gray-700 mt-1">{t.role}</span>
                 )}
               </div>
             </div>

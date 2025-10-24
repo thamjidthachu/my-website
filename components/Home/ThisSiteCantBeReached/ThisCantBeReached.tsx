@@ -161,7 +161,7 @@ export default function ThisCantBeReached() {
             initial={{y:CenterHeight+50-20,x:CenterWidth-13,opacity:0}}
             animate={{y:CenterHeight+50,opacity:1}}
             transition={{delay:3.5,duration:0.3}}
-            className="absolute font-bold text-gray-600 text-2xl">
+            className="absolute font-bold text-gray-700 text-2xl">
               Hello!
             </motion.span>
 
@@ -175,7 +175,7 @@ export default function ThisCantBeReached() {
           transition={{ opacity: { delay: 2, duration: 0.5 } }}
           className="w-full  flex flex-col space-y-8"
         >
-          <span className="text-gray-600 font-Header text-2xl">
+          <span className="text-gray-700 font-Header text-2xl">
             This site{" "}
             {ShowText ? (
               <motion.span
@@ -190,7 +190,7 @@ export default function ThisCantBeReached() {
             )}{" "}
             be reached
           </span>
-          <span className="text-gray-500 text-md">
+          <span className="text-gray-700 text-md">
             <span className="font-bold">thamjidthachu.dev </span>
             unexpectedly{" "}
             {ShowText ? (
@@ -207,23 +207,23 @@ export default function ThisCantBeReached() {
             the connection.
           </span>
           <div className="flex flex-col space-y-3">
-            <span className="font-Header text-gray-400 text-lg">Try:</span>
+            <span className="font-Header text-gray-700 text-lg">Try:</span>
             <div className="flex flex-col space-y-2 pl-10">
-              <span className="text-Header text-gray-400 font-Header sm:text-base text-sm">
-                <span className="text-bold text-gray-500">&bull;</span> Checking
+              <span className="text-Header text-gray-700 font-Header sm:text-base text-sm">
+                <span className="text-bold text-gray-700">&bull;</span> Checking
                 the connection
               </span>
               <span className="text-Header text-blue-500 font-Header sm:text-base text-sm">
-                <span className="text-bold text-gray-500">&bull;</span> Checking
+                <span className="text-bold text-gray-700">&bull;</span> Checking
                 the proxy and the firewall
               </span>
               <span className="text-Header text-blue-500 font-Header sm:text-bdase text-sm">
-                <span className="text-bold text-gray-500">&bull;</span> Running
+                <span className="text-bold text-gray-700">&bull;</span> Running
                 Windows Network Diagnostics
               </span>
             </div>
           </div>
-          <span className="text-gray-400 text-sm">
+          <span className="text-gray-700 text-sm">
             {ShowText ? (
               <motion.span
                 animate={{ scale: ["100%", "120%"] }}

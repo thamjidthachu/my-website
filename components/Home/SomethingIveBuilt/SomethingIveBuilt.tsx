@@ -14,6 +14,9 @@ export default function SomethingIveBuilt() {
       id="SomethingIveBuiltSection"
       className=" flex flex-col xl:space-y-28 space-y-12 bg-black w-full overflow-x-hidden
      2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4 relative"
+      style={{
+        background: 'linear-gradient(135deg, #000000 0%, #0a0014 50%, #000000 100%)'
+      }}
     >
       {/* Particle background for this section */}
       <ParticleBackground />
@@ -74,7 +77,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Personal Project</span>
+                <span className="text-gray-400 text-base">Personal Project</span>
                 <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Azure Horizon
@@ -152,7 +155,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application</span>
+                <span className="text-gray-400 text-base">Internal Web Application</span>
                 <a href="https://crm.aqaryone.com" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary CRM
@@ -240,7 +243,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Identity Service
@@ -326,7 +329,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application</span>
+                <span className="text-gray-400 text-base">Internal Web Application</span>
                 <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     App Console
@@ -417,7 +420,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary API Gateway
@@ -503,7 +506,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Aqary One
@@ -582,7 +585,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Travel and Tourism</span>
+                <span className="text-gray-400 text-base">Travel and Tourism</span>
                 <a href="https://www.exploreworld.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Explore World
@@ -658,7 +661,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">CRM & Inventory Management</span>
+                <span className="text-gray-400 text-base">CRM & Inventory Management</span>
                 <a href="https://www.wearlay.in/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Wearlay
@@ -731,7 +734,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Learning & Management System</span>
+                <span className="text-gray-400 text-base">Learning & Management System</span>
                 <Link href="https://my.um.edu.sa/">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Al Maarefa
@@ -808,7 +811,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Hospitality Management</span>
+                <span className="text-gray-400 text-base">Hospitality Management</span>
                 <Link href={"https://my.away2gether.com"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Away2gether
@@ -894,7 +897,7 @@ export default function SomethingIveBuilt() {
               col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Innovative E-Commerce Platform</span>
+                <span className="text-gray-400 text-base">Innovative E-Commerce Platform</span>
                 <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Redalion

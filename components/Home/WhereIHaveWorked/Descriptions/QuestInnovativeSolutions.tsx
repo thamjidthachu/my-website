@@ -30,7 +30,7 @@ export default function QuestInnovativeSolutions() {
           {/* Title */}
           <div className="flex flex-row items-center gap-2">
             <span className="text-gray-900 sm:text-lg text-sm font-Arimo tracking-wide font-semibold">
-              Software Engineer Intern <span className="text-gray-600 font-normal">@ Quest Innovative Solutions, Kochi, Kerala</span>
+              Software Engineer Intern <span className="text-gray-700 font-normal">@ Quest Innovative Solutions, Kochi, Kerala</span>
             </span>
             <a 
               href="https://www.qis.co.in/" 
@@ -47,7 +47,7 @@ export default function QuestInnovativeSolutions() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 hover:text-AAsecondary hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
+                className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700 hover:text-AAsecondary hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
               >
                 <title>Visit Quest Innovative Solutions</title>
                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -57,7 +57,7 @@ export default function QuestInnovativeSolutions() {
             </a>
           </div>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Sep 2021 – Mar 2022</span>
+          <span className="font-mono text-xs text-gray-700">Sep 2021 – Mar 2022</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {tasks.map((item, index) => {
@@ -65,7 +65,7 @@ export default function QuestInnovativeSolutions() {
               <div key={index} className="flex flex-row space-x-2">
                 <ArrowIcon className={" h-5 w-4 text-AAsecondary flex-none"} />
                 <span
-                  className="text-gray-500 sm:text-sm text-xs"
+                  className="text-gray-700 sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
                     __html: getTasksTextWithHighlightedKeyword(item.text, item.keywords),
                   }}
