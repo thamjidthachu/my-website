@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import Image from "next/image";
 
-export default function Logo(props: { finishedLoading: boolean }) {
+export default function Logo(props: { finishedLoading: boolean; isOnDarkSection?: boolean }) {
   return (
     <>
       <motion.div
@@ -22,7 +22,9 @@ export default function Logo(props: { finishedLoading: boolean }) {
           height={48}
           className="rounded-full object-cover shadow-lg"
           style={{
-            filter: 'drop-shadow(0 0 10px rgba(233, 69, 96, 0.3))'
+            filter: props.isOnDarkSection 
+              ? 'drop-shadow(0 0 10px rgba(255, 255, 255, 0.3))' 
+              : 'drop-shadow(0 0 10px rgba(233, 69, 96, 0.3))'
           }}
         />
       </motion.div>

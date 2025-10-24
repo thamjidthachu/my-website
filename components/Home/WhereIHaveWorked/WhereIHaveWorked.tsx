@@ -25,13 +25,12 @@ export default function WhereIHaveWorked() {
       <section className="flex flex-row items-center w-full max-w-[500px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1100px] 2xl:max-w-[1200px] 3xl:max-w-[1400px] 4xl:max-w-[1600px] mx-auto px-4 md:px-0">
         <div className="flex flex-row items-center">
           <ArrowIcon className={"flex-none h-4 md:h-6 w-4 md:w-5 text-AAsecondary"} />
-          <span className="text-AAsecondary font-sans text-sm  sm:text-xl"> 02.</span>
         </div>
 
-        <span className="text-gray-200 opacity-85 font-bold tracking-wider text-lg md:text-2xl px-3">
+        <span className="text-gray-900 opacity-85 font-bold tracking-wider text-lg md:text-2xl px-3">
           Where I&apos;ve Worked
         </span>
-        <div className="bg-gray-400 h-[0.2px] w-16 sm:w-44 md:w-80"></div>
+        <div className="bg-gray-300 h-[0.2px] w-16 sm:w-44 md:w-80"></div>
       </section>
       {/* // ? Where I've Worked Content section */}
       <section

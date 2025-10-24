@@ -32,12 +32,12 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
     text-sm  space-y-2  "
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-            Built by Anaflous Abdellatif
+            Copyright &copy; 2025. All rights reserved.
           </span>
 
           <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
             <GithubIcon className={"w-4 h-4 text-gray-400 fill-current group-hover:text-AAsecondary"} />
-            <span className="">Powered By - @thamjidthachu</span>
+            <span className="">@thamjidthachu</span>
           </span>
         </div>
       </a>

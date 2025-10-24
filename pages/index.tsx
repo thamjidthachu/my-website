@@ -137,8 +137,8 @@ export default function Home() {
       </Head>
 
       {!isBlackListed ? (
-        <div className="relative snap-mandatory min-h-screen dotted-bg animated-gradient w-full ">
-          <ParticleBackground />
+        <div className="relative snap-mandatory min-h-screen bg-white w-full overflow-x-hidden">
+          {/* <ParticleBackground /> */}
           {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
           {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
           <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />

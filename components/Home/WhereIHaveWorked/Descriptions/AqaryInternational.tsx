@@ -39,8 +39,8 @@ export default function AqaryInternational() {
       <div className="flex flex-col space-y-5 max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl 3xl:max-w-5xl 4xl:max-w-6xl px-4 md:px-0">
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
-          <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            AL/ML Engineer <span className="text-AAsecondary">@ Aqary International Group, Al-Reem Island, Abu Dhabi</span>
+          <span className="text-gray-900 sm:text-lg text-sm font-Arimo tracking-wide">
+            AI/ML Engineer <span className="text-AAsecondary">@ Aqary International Group, Al-Reem Island, Abu Dhabi</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">May 2025– Present</span>

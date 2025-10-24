@@ -13,6 +13,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
   const RefNavBar = useRef<HTMLDivElement>(null);
   const [ShowElement, setShowElement] = useState(false);
   const [rotate, setRotate] = useState<boolean>(false);
+  const [isOnDarkSection, setIsOnDarkSection] = useState(false);
   const context = useContext(AppContext);
   const scrollSizeY=useRef<number>(0);
 
@@ -20,6 +21,19 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
   useEffect(() => {
     if (context.sharedState.portfolio.NavBar.IntervalEvent == null) {
       context.sharedState.portfolio.NavBar.IntervalEvent=() => {
+        // Check if we're over the black section (SomethingIveBuilt)
+        const blackSection = document.getElementById('SomethingIveBuiltSection');
+        if (blackSection) {
+          const rect = blackSection.getBoundingClientRect();
+          const navbarHeight = 80; // Approximate navbar height
+          // Check if black section is visible in the navbar area
+          if (rect.top <= navbarHeight && rect.bottom >= 0) {
+            setIsOnDarkSection(true);
+          } else {
+            setIsOnDarkSection(false);
+          }
+        }
+        
         if (scrollSizeY.current == 0) {
           scrollSizeY.current = window.scrollY;
         } else {
@@ -96,7 +110,7 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
       justify-between px-6 sm:px-12 py-2 sm:py-4  transition-all duration-500 translate-y-0 z-20`}
       >
         {/* Logo T */}
-        <Logo finishedLoading={props.finishedLoading} />
+        <Logo finishedLoading={props.finishedLoading} isOnDarkSection={isOnDarkSection} />
 
         {/* Hide icon Designed by me */}
 
@@ -106,10 +120,11 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
           setShowElement={setShowElement}
           ShowElement={ShowElement}
           finishedLoading={props.finishedLoading}
+          isOnDarkSection={isOnDarkSection}
         />
 
         {/* ? Desktop Menu */}
-        <DesktopMenu finishedLoading={props.finishedLoading} />
+        <DesktopMenu finishedLoading={props.finishedLoading} isOnDarkSection={isOnDarkSection} />
       </motion.div>
     </>
   );
