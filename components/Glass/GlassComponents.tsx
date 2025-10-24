@@ -50,4 +50,5 @@ export const GlassSection: React.FC<GlassSectionProps> = ({
   );
 };
 
-export default { GlassCard, GlassSection };
+const GlassComponents = { GlassCard, GlassSection };
+export default GlassComponents;
