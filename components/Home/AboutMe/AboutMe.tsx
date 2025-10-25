@@ -65,8 +65,8 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               <div key={groupIndex} className="flex flex-col space-y-4 sm:text-base text-sm">
                 {techGroup.map((tech, techIndex) => (
                   <div key={techIndex} className="flex flex-row items-center space-x-2">
-                    <ArrowIcon className={"h-3 w-3 text-AAAccent flex-none"} />
-                    <span className="text-AATextMuted hover:text-AATextSecondary transition-colors duration-300 sm:text-sm text-xs">{tech}</span>
+                    <ArrowIcon className={"h-3 w-3 text-gray-700 flex-none"} />
+                    <span className="text-Primary hover:text-black transition-colors duration-300 sm:text-sm text-xs">{tech}</span>
                   </div>
                 ))}
               </div>
