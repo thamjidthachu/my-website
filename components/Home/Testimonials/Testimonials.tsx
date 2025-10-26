@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
   {
     avatar: "/avatars/rnandhukishor.jpg",
     name: "R Nandhu Kishor",
-    role: "Senior Software Developer, Flycatch Infotech",
+    role: "Senior Software Developer, Tensaw Technologies",
     message:
       "Thamjid is an awesome team player. Had worked with him in a project. He is great at understanding requirements and getting done whats required, good at handling international clients. I would highly recommend him for future lead roles.",
     profileUrl: "https://www.linkedin.com/in/nanthukishor/",
@@ -141,7 +141,7 @@ export default function Testimonials() {
   return (
     <section
       id="TestimonialsSection"
-      className="my-16 px-4 sm:px-8 xl:px-16 xl:px-24 xl:px-32 xl:px-48 2xl:px-72 overflow-x-hidden py-12 bg-gradient-to-b from-white via-gray-50/30 to-white"
+      className="my-16 overflow-x-hidden py-12 bg-gradient-to-b from-white via-gray-50/30 to-white"
     >
       {/* Title */}
       <div data-aos="fade-up" className="flex flex-row items-center md:px-0 mb-16">
