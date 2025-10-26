@@ -137,8 +137,8 @@ export default function Home() {
       </Head>
 
       {!isBlackListed ? (
-        <div className="relative snap-mandatory min-h-screen dotted-bg animated-gradient w-full ">
-          <ParticleBackground />
+        <div className="relative snap-mandatory min-h-screen bg-white w-full overflow-x-hidden">
+          {/* <ParticleBackground /> */}
           {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
           {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
           <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
@@ -165,10 +165,10 @@ export default function Home() {
               <h1 className="mb-4 text-4xl font-bold tracking-tight leading-none text-gray-900 lg:mb-6 md:text-5xl xl:text-6xl dark:text-white">
                 Access Restricted
               </h1>
-              <p className="font-light text-gray-500 md:text-lg xl:text-xl dark:text-gray-400">
+              <p className="font-light text-gray-900 md:text-lg xl:text-xl dark:text-gray-900">
                 Sorry! Access from your location is currently restricted.
               </p>
-              <p className="font-light text-white-500 md:text-lg xl:text-xl dark:text-gray-400">
+              <p className="font-light text-white-500 md:text-lg xl:text-xl dark:text-gray-900">
                 Contact me at{" "}
                 <a
                   className="text-white underline"

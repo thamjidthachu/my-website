@@ -5,20 +5,25 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import Img from "../../smallComp/image/Img";
 import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
+import ParticleBackground from "../../Background/ParticleBackground";
 
 export default function SomethingIveBuilt() {
   const router = useRouter();
   return (
     <div
       id="SomethingIveBuiltSection"
-      className=" flex flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
-     2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
+      className=" flex flex-col xl:space-y-28 space-y-12 bg-black w-full overflow-x-hidden
+     2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4 relative"
+      style={{
+        background: 'linear-gradient(135deg, #000000 0%, #0a0014 50%, #000000 100%)'
+      }}
     >
+      {/* Particle background for this section */}
+      <ParticleBackground />
       {/* // ? Title   */}
       <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
-        <ArrowIcon className={"flex-none h-5 md:h-6 w-5 md:w-5 translate-y-[2px] text-AAsecondary"} />
+        <ArrowIcon className={"flex-none h-5 md:h-6 w-5 md:w-5 translate-y-[2px] text-white"} />
         <div className="flex-none flex-row space-x-2 items-center pr-2">
-          <span className="text-AAsecondary font-sans text-sm  sm:text-xl"> 03.</span>
           <span className=" font-bold tracking-wider text-gray-200 text-lg md:text-2xl w-44 md:w-56 opacity-85">
             {" "}
             Some Things I&apos;ve Built
@@ -27,10 +32,9 @@ export default function SomethingIveBuilt() {
         <div className="bg-gray-400 h-[0.2px] w-full xl:w-1/3 md:w-1/2"></div>
       </div>
 
-      <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
-        {/* // TODO : to here  */}        
+      <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">       
 
-        {/* // ? Project 1 Azure Horizon */}
+        {/* Project 1 Azure Horizon */}
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
@@ -66,14 +70,14 @@ export default function SomethingIveBuilt() {
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">Prestigious Project</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">🚧Developement In Progress...👷</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+              col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Personal Passion Project</span>
+                <span className="text-gray-400 text-base">Personal Project</span>
                 <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Azure Horizon
@@ -148,39 +152,34 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start space-y-3 md:order-1"
+              col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application</span>
+                <span className="text-gray-400 text-base">Internal Web Application</span>
                 <a href="https://crm.aqaryone.com" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary CRM
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  I&apos;m currently building <span className="text-AAsecondary">Aqary CRM</span>, a comprehensive{" "}
-                  <span className="text-AAsecondary">real estate management platform</span> designed to streamline{" "}
-                  <span className="text-AAsecondary">client relationships</span>,{" "}
-                  <span className="text-AAsecondary">lead tracking</span>, and{" "}
-                  <span className="text-AAsecondary">property operations</span>. The system is powered by{" "}
-                  <span className="text-AAsecondary">Django REST Framework</span> with{" "}
+                  Building <span className="text-AAsecondary">Aqary CRM</span>, a{" "}
+                  <span className="text-AAsecondary">real estate management platform</span> powered by{" "}
+                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
                   <span className="text-AAsecondary">Flask-SocketIO</span> for{" "}
-                  <span className="text-AAsecondary">real-time notifications</span>,{" "}
+                  <span className="text-AAsecondary">real-time operations</span>.  
+                  It features a scalable{" "}
+                  <span className="text-AAsecondary">microservices architecture</span> with modules like{" "}
+                  <span className="text-AAsecondary">Admin</span>,{" "}
+                  <span className="text-AAsecondary">Notification</span>, and{" "}
+                  <span className="text-AAsecondary">Booking Management</span>, leveraging{" "}
                   <span className="text-AAsecondary">Celery & Redis</span> for{" "}
-                  <span className="text-AAsecondary">async workflows</span>, and{" "}
-                  <span className="text-AAsecondary">Swagger</span> for{" "}
-                  <span className="text-AAsecondary">API documentation</span>. 
-                  The platform follows a robust{" "}
-                  <span className="text-AAsecondary">microservices architecture</span> for scalability, featuring modules like{" "}
-                  <span className="text-AAsecondary">Admin Management</span>,{" "}
-                  <span className="text-AAsecondary">Notification Service</span>, and{" "}
-                  <span className="text-AAsecondary">Booking Management</span>.
-                  The goal is to deliver a{" "}
-                  <span className="text-AAsecondary">cloud-ready CRM solution</span> that integrates{" "}
-                  <span className="text-AAsecondary">modern real estate operations</span> with{" "}
-                  <span className="text-AAsecondary">intelligent automation</span>.
+                  <span className="text-AAsecondary">async workflows</span>.  
+                  Designed to be a{" "}
+                  <span className="text-AAsecondary">cloud-ready CRM</span> that unites{" "}
+                  <span className="text-AAsecondary">automation</span> with{" "}
+                  <span className="text-AAsecondary">modern real estate operations</span>.
                 </p>
               </div>
               <ul
@@ -236,38 +235,31 @@ export default function SomethingIveBuilt() {
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+              col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Identity Service
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I&apos;ve been developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
-                  <span className="text-AAsecondary">core authentication and authorization engine</span> of the{" "}
-                  <span className="text-AAsecondary">Aqary ecosystem</span>. It manages{" "}
+                  Developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
+                  <span className="text-AAsecondary">core authentication engine</span> of the{" "}
+                  <span className="text-AAsecondary">Aqary ecosystem</span>.  
+                  It handles{" "}
                   <span className="text-AAsecondary">user onboarding</span>,{" "}
                   <span className="text-AAsecondary">multi-role access control</span>, and{" "}
-                  <span className="text-AAsecondary">secure token-based authentication</span> across all connected microservices.{" "}
-                  Built with <span className="text-AAsecondary">Django REST Framework</span>, it integrates{" "}
-                  <span className="text-AAsecondary">JWT</span> and{" "}
-                  <span className="text-AAsecondary">OAuth2</span> protocols to enable{" "}
-                  <span className="text-AAsecondary">seamless cross-service communication</span>. The system also supports{" "}
-                  <span className="text-AAsecondary">organization-level user management</span>,{" "}
-                  <span className="text-AAsecondary">custom permission hierarchies</span>, and{" "}
-                  <span className="text-AAsecondary">centralized audit logging</span>. 
-                  The vision is to establish a{" "}
-                  <span className="text-AAsecondary">unified identity layer</span> that ensures{" "}
-                  <span className="text-AAsecondary">security, scalability,</span> and{" "}
-                  <span className="text-AAsecondary">consistent access control</span> across all{" "}
-                  <span className="text-AAsecondary">Aqary microservices</span>.
+                  <span className="text-AAsecondary">secure token-based authentication</span> across microservices.  
+                  Built with{" "}
+                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
+                  <span className="text-AAsecondary">OAuth2 / JWT</span>, it ensures{" "}
+                  <span className="text-AAsecondary">secure, scalable,</span> and{" "}
+                  <span className="text-AAsecondary">consistent access control</span> across the platform.
                 </p>
-
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
@@ -322,43 +314,35 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start space-y-3 md:order-1"
+              col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application</span>
+                <span className="text-gray-400 text-base">Internal Web Application</span>
                 <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     App Console
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-              <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                I’m currently building the <span className="text-AAsecondary">Aqary App Console</span>, a{" "}
-                <span className="text-AAsecondary">developer-focused platform</span> that enables seamless{" "}
-                <span className="text-AAsecondary">app integration</span> within the{" "}
-                <span className="text-AAsecondary">Aqary ecosystem</span>. It allows developers to{" "}
-                <span className="text-AAsecondary">register, configure,</span> and{" "}
-                <span className="text-AAsecondary">manage third-party applications</span> connected through{" "}
-                <span className="text-AAsecondary">OAuth configurations</span>,{" "}
-                <span className="text-AAsecondary">webhooks,</span> and{" "}
-                <span className="text-AAsecondary">permission scopes</span>. 
-                Built with <span className="text-AAsecondary">Flask</span> and{" "}
-                <span className="text-AAsecondary">SQLAlchemy</span>, the system leverages{" "}
-                <span className="text-AAsecondary">modular APIs</span> for flexibility and{" "}
-                <span className="text-AAsecondary">secure communication</span> across services. 
-                It supports features like{" "}
-                <span className="text-AAsecondary">trusted IP whitelisting</span>,{" "}
-                <span className="text-AAsecondary">callback URL validation</span>, and{" "}
-                <span className="text-AAsecondary">dynamic webhook event mapping</span>. 
-                The goal is to create a{" "}
-                <span className="text-AAsecondary">centralized application hub</span> that empowers{" "}
-                <span className="text-AAsecondary">developers</span> and{" "}
-                <span className="text-AAsecondary">partners</span> to extend Aqary’s capabilities through{" "}
-                <span className="text-AAsecondary">secure and scalable integrations</span>.
-              </p>
-
-
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  Building the <span className="text-AAsecondary">Aqary App Console</span>, a{" "}
+                  <span className="text-AAsecondary">developer platform</span> for seamless{" "}
+                  <span className="text-AAsecondary">app integration</span> within the{" "}
+                  <span className="text-AAsecondary">Aqary ecosystem</span>.  
+                  Built with{" "}
+                  <span className="text-AAsecondary">Flask</span> and{" "}
+                  <span className="text-AAsecondary">SQLAlchemy</span>, it enables{" "}
+                  <span className="text-AAsecondary">OAuth-based app registration</span>,{" "}
+                  <span className="text-AAsecondary">webhooks</span>, and{" "}
+                  <span className="text-AAsecondary">permission management</span> through{" "}
+                  <span className="text-AAsecondary">modular APIs</span>.  
+                  Supports{" "}
+                  <span className="text-AAsecondary">IP whitelisting</span>,{" "}
+                  <span className="text-AAsecondary">callback validation</span>, and{" "}
+                  <span className="text-AAsecondary">dynamic event mapping</span> to deliver{" "}
+                  <span className="text-AAsecondary">secure, scalable integrations</span>.
+                </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
@@ -413,47 +397,38 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+              col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Aqary API Gateway
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I architected the <span className="text-AAsecondary">Aqary API Gateway</span> as the{" "}
-                  <span className="text-AAsecondary">central entry point</span> for all{" "}
-                  <span className="text-AAsecondary">microservices</span> within the{" "}
-                  <span className="text-AAsecondary">Aqary ecosystem</span>. 
-                  It handles{" "}
-                  <span className="text-AAsecondary">request routing</span>,{" "}
-                  <span className="text-AAsecondary">authentication</span>,{" "}
-                  <span className="text-AAsecondary">rate limiting</span>, and{" "}
-                  <span className="text-AAsecondary">service-level security policies</span>, ensuring{" "}
-                  <span className="text-AAsecondary">consistency</span> and{" "}
-                  <span className="text-AAsecondary">reliability</span> across all APIs. 
-                  Built with <span className="text-AAsecondary">Flask</span> and{" "}
-                  <span className="text-AAsecondary">Nginx</span> at its core, the gateway integrates with the{" "}
-                  <span className="text-AAsecondary">Aqary Identity Service</span> to validate{" "}
-                  <span className="text-AAsecondary">JWT tokens</span> and enforce{" "}
-                  <span className="text-AAsecondary">role-based access control</span>. 
-                  It also features{" "}
-                  <span className="text-AAsecondary">centralized logging</span>,{" "}
-                  <span className="text-AAsecondary">dynamic service discovery</span>, and{" "}
-                  <span className="text-AAsecondary">load balancing</span> for{" "}
-                  <span className="text-AAsecondary">high availability</span>. 
-                  The goal is to provide a{" "}
-                  <span className="text-AAsecondary">scalable, secure,</span> and{" "}
-                  <span className="text-AAsecondary">extensible gateway layer</span> that unifies{" "}
-                  <span className="text-AAsecondary">all Aqary services</span> under a{" "}
-                  <span className="text-AAsecondary">single, efficient API interface</span>.
-                </p>
-
-              </div>
+            <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
+              <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                Architected the <span className="text-AAsecondary">Aqary API Gateway</span> as the{" "}
+                <span className="text-AAsecondary">central entry point</span> for all{" "}
+                <span className="text-AAsecondary">Aqary microservices</span>.  
+                Built with{" "}
+                <span className="text-AAsecondary">Flask</span> and{" "}
+                <span className="text-AAsecondary">Nginx</span>, it manages{" "}
+                <span className="text-AAsecondary">routing</span>,{" "}
+                <span className="text-AAsecondary">authentication</span>,{" "}
+                <span className="text-AAsecondary">rate limiting</span>, and{" "}
+                <span className="text-AAsecondary">service-level security</span>.  
+                Integrated with the{" "}
+                <span className="text-AAsecondary">Identity Service</span> for{" "}
+                <span className="text-AAsecondary">JWT validation</span> and{" "}
+                <span className="text-AAsecondary">RBAC</span>, featuring{" "}
+                <span className="text-AAsecondary">centralized logging</span> and{" "}
+                <span className="text-AAsecondary">dynamic service discovery</span> for{" "}
+                <span className="text-AAsecondary">high availability</span> and{" "}
+                <span className="text-AAsecondary">scalability</span>.
+              </p>
+            </div>
               <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end">
                 <span className="pr-4 z-10">Python/Flask</span>
                 <span className="pr-4 z-10">Docker</span>
@@ -499,23 +474,31 @@ export default function SomethingIveBuilt() {
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1 
-            col-span-8 flex flex-col items-start space-y-3 md:order-1"
+              col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Internal Web Application.</span>
+                <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     HRMS - Aqary One
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  At <span className="text-AAsecondary">Aqary Investments and Development</span>, I played a key role in designing and developing real-time event subscription 
-                  and notification services using <span className="text-AAsecondary">Webhooks and WebSockets</span>, significantly enhancing system responsiveness 
-                  and improving the employee experience. I also developed an <span className="text-AAsecondary">AI-powered</span> HRMS platform that integrated 
-                  ATS resume screening, chatbot support, and biometric attendance automation, leveraging <span className="text-AAsecondary">Flask</span> and an event-driven architecture.
-                  These solutions streamlined HR workflows and showcased our commitment to delivering intelligent, scalable, and user-centric systems.
+                    At <span className="text-AAsecondary">Aqary Investments and Development</span>, I built{" "}
+                    <span className="text-AAsecondary">real-time notification services</span> using{" "}
+                    <span className="text-AAsecondary">Webhooks</span> and{" "}
+                    <span className="text-AAsecondary">WebSockets</span> to boost system responsiveness.  
+                    Also developed an{" "}
+                    <span className="text-AAsecondary">AI-powered HRMS</span> with{" "}
+                    <span className="text-AAsecondary">ATS screening</span>,{" "}
+                    <span className="text-AAsecondary">chatbot support</span>, and{" "}
+                    <span className="text-AAsecondary">biometric automation</span> using{" "}
+                    <span className="text-AAsecondary">Flask</span> and{" "}
+                    <span className="text-AAsecondary">event-driven architecture</span>, improving{" "}
+                    <span className="text-AAsecondary">HR workflows</span> and{" "}
+                    <span className="text-AAsecondary">employee experience</span>.
                 </p>
               </div>
               <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2">
@@ -545,13 +528,6 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
-              {/* <Link href={"/typing"}>
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link> */}
 
               <a href="https://www.exploreworld.com/" target={"_blank"} rel="noreferrer">
                 <div
@@ -578,10 +554,10 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            col-span-8 flex flex-col items-start md:items-end space-y-3 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Travel and Tourism</span>
+                <span className="text-gray-400 text-base">Travel and Tourism</span>
                 <a href="https://www.exploreworld.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Explore World
@@ -654,10 +630,10 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start space-y-3 md:order-1"
+            col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">CRM & Inventory Management</span>
+                <span className="text-gray-400 text-base">CRM & Inventory Management</span>
                 <a href="https://www.wearlay.in/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Wearlay
@@ -727,10 +703,10 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            col-span-8 flex flex-col items-start md:items-end space-y-3 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Learning & Management System</span>
+                <span className="text-gray-400 text-base">Learning & Management System</span>
                 <Link href="https://my.um.edu.sa/">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Al Maarefa
@@ -804,10 +780,10 @@ export default function SomethingIveBuilt() {
 
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-1 3xl:col-span-7 3xl:col-start-1 4xl:col-span-8 4xl:col-start-1   
-            col-span-8 flex flex-col items-start space-y-3 md:order-1"
+            col-span-8 flex flex-col items-start space-y-3 md:order-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 z-10">
-                <span className="text-AAsecondary text-base">Hospitality Management</span>
+                <span className="text-gray-400 text-base">Hospitality Management</span>
                 <Link href={"https://my.away2gether.com"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Away2gether
@@ -867,7 +843,7 @@ export default function SomethingIveBuilt() {
               </a>
 
               <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
-                <span className="text-AAsecondary text-xl">On Hold...</span>
+                <span className="text-AAsecondary text-xs">🧱 On Hold...</span>
               </div>
 
               <Img src={"/projects/redalion.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -890,10 +866,10 @@ export default function SomethingIveBuilt() {
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+              col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1 border border-white/10 rounded-lg"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Innovative E-Commerce Platform</span>
+                <span className="text-gray-400 text-base">Innovative E-Commerce Platform</span>
                 <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Redalion

@@ -15,7 +15,7 @@ const IconClickableWithAnimation = props => {
       className=""
     >
       <a href={props.href} className="" target={"_blank"} rel="noreferrer">
-        <props.Icon className={"w-6 h-6 text-gray-400 hover:text-AAsecondary fill-current hover:cursor-pointer"} />
+        <props.Icon className={"w-6 h-6 text-gray-700 hover:text-AAsecondary fill-current hover:cursor-pointer"} />
       </a>
     </motion.div>
   );
@@ -52,7 +52,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         transition={{ y: { delay: props.finishedLoading ? 0 : 11, duration: props.finishedLoading ? 0 : 0.5 } }}
         className="z-10 fixed bottom-0 -right-10 hidden lg:flex flex-row items-center justify-between"
       >
-        <div className="flex flex-col space-y-24 justify-center items-center">
+        <div className="flex flex-col space-y-32 justify-center items-center">
           {/* Open Email on click */}
           <motion.div
             initial={{ rotate: 90 }}
@@ -63,8 +63,8 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             className=""
           >
             <a href="mailto:thachuthamjid@gmail.com" target={"_blank"} rel="noreferrer">
-              <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                thachuthamjid<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
+              <span className=" font-Header tracking-wider text-gray-700 hover:text-AAsecondary hover:cursor-pointer">
+                thachuthamjid<span className="text-AAAccent font-bold">@</span>gmail<span className="text-AAAccent font-bold">.</span>com
               </span>
             </a>
           </motion.div>

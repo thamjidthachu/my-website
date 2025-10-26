@@ -24,24 +24,24 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hero-pattern': 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #252547 75%, #0f0f23 100%)',
-        'card-gradient': 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+        'hero-pattern': 'linear-gradient(135deg, #ffffff 0%, #f5f5f7 25%, #fafafa 50%, #f5f5f7 75%, #ffffff 100%)',
+        'card-gradient': 'linear-gradient(135deg, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.01) 100%)',
       },
       colors: {
-        AAprimary: "#0f0f23",
-        AAsecondary: "#ff6b6b",
-        AAAccent: "#4ecdc4",
-        AAError: "#ff6b6b",
-        AAtertiary: "#1a1a2e",
-        AASurface: "#16213e",
-        AATextPrimary: "#e94560",
-        AATextSecondary: "#f5f5f5",
-        AATextMuted: "#a0a0a0",
-        ResumeButtonHover: "#ff5252",
-        MobileNavBarColor: "#1a1a2e",
-        StartupBackground: "#0f0f23",
-        DotPattern: "#333366",
-        TextureOverlay: "#252547",
+        AAprimary: "#ffffff",          // Pure white background (Samsung/Apple style)
+        AAsecondary: "#000000",        // Pure black accent
+        AAAccent: "#1d1d1f",          // Dark gray (Apple's dark text)
+        AAError: "#86868b",           // Mid gray for errors
+        AAtertiary: "#f5f5f7",        // Light gray surface (Apple's light surface)
+        AASurface: "#fafafa",         // Off-white for cards
+        AATextPrimary: "#1d1d1f",     // Dark text (Apple style)
+        AATextSecondary: "#000000",   // Pure black text
+        AATextMuted: "#86868b",       // Gray muted text (Apple's gray)
+        ResumeButtonHover: "#1d1d1f", // Dark hover
+        MobileNavBarColor: "#ffffff", // White navbar
+        StartupBackground: "#ffffff", // White startup
+        DotPattern: "#f5f5f7",        // Light gray dots
+        TextureOverlay: "#fafafa",    // Subtle light overlay
       },
       screens: {
         sm: "640px",

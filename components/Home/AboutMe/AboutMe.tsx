@@ -20,7 +20,6 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
         <div className="flex flex-row items-center">
           <div className="flex flex-row items-center mr-4">
             <ArrowIcon className={"flex-none h-4 md:h-6 w-4 md:w-5 translate-y-[0.5px] text-AAAccent"} />
-            <span className="text-AAAccent font-Header text-sm sm:text-xl"> 01.</span>
             <span className="flex-none text-AATextSecondary opacity-95 font-bold tracking-wider text-lg sm:text-2xl pl-4">
               About Me
             </span>
@@ -38,24 +37,24 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             grown into over <span className="text-AATextPrimary font-medium">4 years of professional experience</span> crafting web
             applications and data-driven platforms using Django, Flask, and modern AI tools.
           </div>
-          <div className="font-Header text-AATextMuted text-justify leading-relaxed">
+          <div className="font-Header text-gray-700 text-justify leading-relaxed">
             Over the years, I&apos;ve had the opportunity to work across diverse domains – from{" "}
-            <span className="text-AATextPrimary font-medium">HR management systems</span> and{" "}
-            <span className="text-AATextPrimary font-medium">travel & hospitality platforms</span> to{" "}
-            <span className="text-AATextPrimary font-medium">university registration and learning systems</span> and{" "}
-            <span className="text-AATextPrimary font-medium">e-commerce</span>. Currently, I&apos;m working as an{" "}
-            <span className="text-AATextPrimary font-medium">AI/ML Engineer</span> in Abu Dhabi, where I integrate intelligent systems like{" "}
-            <span className="text-AATextPrimary font-medium">resume parsing</span>,{" "}
-            <span className="text-AATextPrimary font-medium">ATS checks</span>, and{" "}
-            <span className="text-AATextPrimary font-medium">chatbots</span> to enhance enterprise platforms.
+            <span className="text-gray-900 font-medium">HR management systems</span> and{" "}
+            <span className="text-gray-900 font-medium">travel & hospitality platforms</span> to{" "}
+            <span className="text-gray-900 font-medium">university registration and learning systems</span> and{" "}
+            <span className="text-gray-900 font-medium">e-commerce</span>. Currently, I&apos;m working as an{" "}
+            <span className="text-gray-900 font-medium">AI/ML Engineer</span> in Abu Dhabi, where I integrate intelligent systems like{" "}
+            <span className="text-gray-900 font-medium">resume parsing</span>,{" "}
+            <span className="text-gray-900 font-medium">ATS checks</span>, and{" "}
+            <span className="text-gray-900 font-medium">chatbots</span> to enhance enterprise platforms.
           </div>
-          <div className="font-Header text-AATextMuted text-justify leading-relaxed">
-            Some of my favorite projects include <span className="text-AATextPrimary font-medium">Wearlay</span>, an inventory and CRM
-            system, <span className="text-AATextPrimary font-medium">Explore World</span>, a large-scale tourism aggregator, and{" "}
-            <span className="text-AATextPrimary font-medium">Redalion</span>, an e-commerce platform linking QR-coded medallions to
+          <div className="font-Header text-gray-700 text-justify leading-relaxed">
+            Some of my favorite projects include <span className="text-gray-900 font-medium">Wearlay</span>, an inventory and CRM
+            system, <span className="text-gray-900 font-medium">Explore World</span>, a large-scale tourism aggregator, and{" "}
+            <span className="text-gray-900 font-medium">Redalion</span>, an e-commerce platform linking QR-coded medallions to
             digital ancestral profiles. Each project has pushed me to design{" "}
-            <span className="text-AATextPrimary font-medium">scalable architectures</span> and deliver{" "}
-            <span className="text-AATextPrimary font-medium">user-focused solutions</span>.
+            <span className="text-gray-900 font-medium">scalable architectures</span> and deliver{" "}
+            <span className="text-gray-900 font-medium">user-focused solutions</span>.
           </div>
           <div className="font-Header tracking-wide text-AATextMuted pt-2 pb-1 text-justify">
             Here&apos;s what I&apos;m usually working with these days:
@@ -66,8 +65,8 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               <div key={groupIndex} className="flex flex-col space-y-4 sm:text-base text-sm">
                 {techGroup.map((tech, techIndex) => (
                   <div key={techIndex} className="flex flex-row items-center space-x-2">
-                    <ArrowIcon className={"h-3 w-3 text-AAAccent flex-none"} />
-                    <span className="text-AATextMuted hover:text-AATextSecondary transition-colors duration-300 sm:text-sm text-xs">{tech}</span>
+                    <ArrowIcon className={"h-3 w-3 text-gray-700 flex-none"} />
+                    <span className="text-Primary hover:text-black transition-colors duration-300 sm:text-sm text-xs">{tech}</span>
                   </div>
                 ))}
               </div>

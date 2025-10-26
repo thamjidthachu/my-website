@@ -25,8 +25,11 @@ const ParticleBackground: React.FC = () => {
     const colors = ['#ff6b6b', '#4ecdc4', '#e94560', '#4facfe', '#00f2fe'];
     
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      const parent = canvas.parentElement;
+      if (parent) {
+        canvas.width = parent.offsetWidth;
+        canvas.height = parent.offsetHeight;
+      }
     };
 
     const createParticle = (): Particle => ({
@@ -107,7 +110,7 @@ const ParticleBackground: React.FC = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none z-0 opacity-60"
+      className="absolute top-0 left-0 w-full h-full pointer-events-none z-0 opacity-60"
       style={{ mixBlendMode: 'screen' }}
     />
   );
