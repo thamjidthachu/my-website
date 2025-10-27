@@ -42,7 +42,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 3xl:col-span-6 4xl:col-span-5">
-              <a href="https://crm.aqaryone.com" target={"_blank"} rel="noreferrer">
+              <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-black
