@@ -50,6 +50,14 @@ const testimonials: Testimonial[] = [
       "I really enjoyed working with Thamjid. he’s a reliable and talented backend developer who made my work so much easier by building smooth and efficient APIs. He’s always supportive, easy to work with, and brings a problem-solving attitude.",
     profileUrl: "https://www.linkedin.com/in/rafeequent/",
   },
+  {
+    avatar: "/avatars/najeem.jpeg",
+    name: "Muhammed Najeem K",
+    role: "Senior Graphic Designer, Aqary International Group",
+    message:
+      "I had the pleasure of working with Thamjid Mannarayil, and I can confidently say he is one of the most efficient and quick-thinking professionals I’ve collaborated with. Thamjid has a remarkable ability to identify problems early and find effective solutions quickly.",
+    profileUrl: "https://www.linkedin.com/in/muhammed-najeem-k-367414298/",
+  },
 ];
 
 const LOOP_FACTOR = 2; // Duplicate testimonials for seamless looping
