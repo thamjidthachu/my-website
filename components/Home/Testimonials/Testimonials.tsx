@@ -51,7 +51,7 @@ const testimonials: Testimonial[] = [
     profileUrl: "https://www.linkedin.com/in/rafeequent/",
   },
   {
-    avatar: "/avatars/najeem.jpeg",
+    avatar: "/avatars/najeem.jpg",
     name: "Muhammed Najeem K",
     role: "Senior Graphic Designer, Aqary International Group",
     message:
