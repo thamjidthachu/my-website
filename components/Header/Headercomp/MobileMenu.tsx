@@ -31,7 +31,7 @@ const MobileMenu = props => {
             className="flex flex-col text-center space-y-2"
           >
             <span
-              className="text-white font-Text2 text-sm sm:text-base
+              className="text-gray-700 font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
               About
@@ -47,7 +47,7 @@ const MobileMenu = props => {
             className="flex flex-col text-center space-y-2"
           >
             <span
-              className="text-white font-Text2 text-sm sm:text-base
+              className="text-gray-700 font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
               Experience
@@ -63,7 +63,7 @@ const MobileMenu = props => {
             className="flex flex-col text-center space-y-2"
           >
             <span
-              className="text-white font-Text2 text-sm sm:text-base
+              className="text-gray-700 font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
               Work
@@ -79,7 +79,7 @@ const MobileMenu = props => {
             className="flex flex-col text-center space-y-2"
           >
             <span
-              className="text-white font-Text2 text-sm sm:text-base
+              className="text-gray-700 font-Text2 text-sm sm:text-base
       hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
               Testimonials
@@ -95,7 +95,7 @@ const MobileMenu = props => {
             className="flex flex-col text-center space-y-2"
           >
             <span
-              className="text-white font-Text2 text-sm sm:text-base
+              className="text-gray-700 font-Text2 text-sm sm:text-base
       hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
               Gallery
@@ -111,7 +111,7 @@ const MobileMenu = props => {
             className="flex flex-col text-center space-y-2"
           >
             <span
-              className="text-white font-Text2 text-sm sm:text-base
+              className="text-gray-700 font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
               Contact

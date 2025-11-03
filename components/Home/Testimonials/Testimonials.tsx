@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
   {
     avatar: "/avatars/manuramachandran.jpg",
     name: "Dr. MAanu Mundapatt Ramachandran",
-    role: "Academicians: Computer Science @ Ministry of Education - UAE",
+    role: "Academicians @ Ministry of Education - UAE",
     message:
       "Thamjid is exceptionally talented in programming, analytical reasoning, and problem-solving. He has demonstrated a natural ability to grasp complex concepts quickly and apply them effectively to both academic and practical projects.",
     profileUrl: "https://www.linkedin.com/in/dr-manu-mundappat-ramachandran-3686591a6/",
@@ -60,6 +60,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 
+const testimonialLength = 220;
 const LOOP_FACTOR = 2; // Duplicate testimonials for seamless looping
 
 export default function Testimonials() {
@@ -205,7 +206,7 @@ export default function Testimonials() {
                 <span className="absolute -top-8 left-4 text-5xl font-serif text-cyan-400 opacity-40 leading-none scale-x-[-1]">,,</span>
                 
                 <p className="text-sm text-center text-gray-700 leading-relaxed px-6">
-                  {t.message}
+                  {t.message.length > testimonialLength ? t.message.substring(0, testimonialLength) + "..." : t.message}
                 </p>
                 
                 {/* Closing Quote - bottom right of text */}

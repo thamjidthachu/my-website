@@ -63,9 +63,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/azurehorizon-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/azurehorizon-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
@@ -144,9 +143,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqarycrm-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/aqarycrm-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -228,9 +226,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqaryidentity-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/aqaryidentity-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
             <div
@@ -306,9 +303,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqaryconsole-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/aqaryconsole-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -389,9 +385,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/aqaryrealestate-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/aqaryrealestate-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -467,9 +462,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/hrmsaqary-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/hrmsaqary-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
             <div
@@ -546,9 +540,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/exploreworld-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/exploreworld-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -622,9 +615,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/wearlay-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/wearlay-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -695,9 +687,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/almaarefa-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/almaarefa-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -772,9 +763,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden md:order-2">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/away2gether-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/away2gether-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
 
@@ -855,9 +845,8 @@ export default function SomethingIveBuilt() {
             {/* background for text in mobile responsive */}
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-gray-900 opacity-70 z-10 md:opacity-0"></div>
-                <div className="absolute w-full h-full bg-gray-800 opacity-70 z-10 md:opacity-0"></div>
-                <Img src={"/projects/redalion-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
+                <Img src={"/projects/redalion-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
