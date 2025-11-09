@@ -24,7 +24,7 @@ const MyName: React.FC<MyNameProps> = props => {
         }}
         className="text-AATextSecondary font-mono text-lg tracking-widest"
       >
-        Hi, my name is
+        Hi, the name is
       </motion.span>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -33,10 +33,21 @@ const MyName: React.FC<MyNameProps> = props => {
           opacity: { delay: props.finishedLoading ? 0 : 0.8, duration: props.finishedLoading ? 0 : 0.6 },
           y: { delay: props.finishedLoading ? 0 : 0.8, duration: props.finishedLoading ? 0 : 0.6 },
         }}
-        className="text-AAsecondary font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4 bg-gradient-to-r from-AATextSecondary to-AATextPrimary bg-clip-text text-transparent"
+        className="text-AAsecondary font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-1 bg-gradient-to-r from-AATextSecondary to-AATextPrimary bg-clip-text text-transparent"
       >
         Thamjid Mannarayil.
       </motion.h1>
+      <motion.span
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{
+          opacity: { delay: props.finishedLoading ? 0 : 0.4, duration: props.finishedLoading ? 0 : 0.6 },
+          y: { delay: props.finishedLoading ? 0 : 0.4, duration: props.finishedLoading ? 0 : 0.6 },
+        }}
+        className="text-AATextSecondary font-mono text-lg tracking-widest"
+      >
+        and I,
+      </motion.span>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -44,7 +55,7 @@ const MyName: React.FC<MyNameProps> = props => {
           opacity: { delay: props.finishedLoading ? 0 : 1.2, duration: props.finishedLoading ? 0 : 0.6 },
           y: { delay: props.finishedLoading ? 0 : 1.2, duration: props.finishedLoading ? 0 : 0.6 },
         }}
-        className="text-AATextMuted font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
+        className="text-AATextMuted font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-1"
       >
         Innovate with code.
       </motion.h2>

@@ -846,7 +846,7 @@ export default function SomethingIveBuilt() {
             <div className="absolute w-full h-full z-0 md:hidden">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-gray-700 opacity-90 z-10 md:opacity-0"></div>
-                <Img src={"/projects/redalion-sm.jpg"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
+                <Img src={"/projects/redalion-sm.png"} alt={"Project Screen shot"} className={`w-full h-full object-cover`} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
