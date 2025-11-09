@@ -161,6 +161,7 @@ body {
 .keyword-hover {
   position: relative;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .keyword-hover:hover {

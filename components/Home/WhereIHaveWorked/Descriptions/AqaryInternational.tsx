@@ -76,7 +76,7 @@ export default function AqaryInternational() {
               <div key={index} className="flex flex-row space-x-2">
                 <ArrowIcon className={" h-5 w-4 text-AAsecondary flex-none"} />
                 <span
-                  className="text-gray-700 sm:text-sm text-xs"
+                  className="text-AATextMuted sm:text-sm text-xs"
                   dangerouslySetInnerHTML={{
                     __html: getTasksTextWithHighlightedKeyword(item.text, item.keywords),
                   }}

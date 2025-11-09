@@ -51,7 +51,7 @@ export default function SomethingIveBuilt() {
               </a>
 
               <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
-                <span className="text-AAsecondary text-xs bg-AAprimary px-2 py-1 rounded">🚧In Development...👷</span>
+                <span className="text-AATextPrimary keyword-hover text-xs bg-AAprimary px-2 py-1 rounded">🚧In Development...👷</span>
               </div>
 
               <Img src={"/projects/azurehorizon.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -69,7 +69,7 @@ export default function SomethingIveBuilt() {
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">🚧Developement In Progress...👷</span>
+              <span className="text-AATextPrimary keyword-hover sm:text-lg bg-AAprimary px-2 py-1 rounded">🚧Developement In Progress...👷</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
@@ -78,37 +78,37 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-gray-400 text-base">Personal Project</span>
                 <a href="https://resort.thamjidthachu.dev" target={"_blank"} rel="noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Azure Horizon
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  I initiated <span className="text-AAsecondary">Azure Horizon</span> in 2021 as a{" "}
-                  <span className="text-AAsecondary">demo project</span> for my first job, which
-                  later grew into a <span className="text-AAsecondary">personal passion project</span>.
-                  Originally built with <span className="text-AAsecondary">Django templates</span>,
+                  I initiated <span className="text-AATextPrimary keyword-hover">Azure Horizon</span> in 2021 as a{" "}
+                  <span className="text-AATextPrimary keyword-hover">demo project</span> for my first job, which
+                  later grew into a <span className="text-AATextPrimary keyword-hover">personal passion project</span>.
+                  Originally built with <span className="text-AATextPrimary keyword-hover">Django templates</span>,
                   it has since evolved into a modern stack using{" "}
-                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
-                  <span className="text-AAsecondary">Next.js</span>. The vision is to transform
+                  <span className="text-AATextPrimary keyword-hover">Django REST Framework</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover">Next.js</span>. The vision is to transform
                   this platform into the official digital presence of a{" "}
-                  <span className="text-AAsecondary">real resort</span> under the same name,
-                  combining <span className="text-AAsecondary">scalability</span> and{" "}
-                  <span className="text-AAsecondary">future-ready design</span> to bring the dream
-                  of <span className="text-AAsecondary">Azure Horizon Resort</span> to life.
+                  <span className="text-AATextPrimary keyword-hover">real resort</span> under the same name,
+                  combining <span className="text-AATextPrimary keyword-hover">scalability</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover">future-ready design</span> to bring the dream
+                  of <span className="text-AATextPrimary keyword-hover">Azure Horizon Resort</span> to life.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">PostgreSQL</span>
-                <span className="pr-4 z-10">Celery</span>
-                <span className="pr-4 z-10">RabbitMQ/Redis</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Django</span>
+                <span className="pr-4 z-10 keyword-hover">Next.js</span>
+                <span className="pr-4 z-10 keyword-hover">PostgreSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Celery</span>
+                <span className="pr-4 z-10 keyword-hover">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
               <GithubIcon link="https://github.com/thamjidthachu/azure-horizon" />
@@ -155,42 +155,42 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 z-10">
                 <span className="text-gray-400 text-base">Internal Web Application</span>
                 <a href="https://crm.aqaryone.com" target="_blank" rel="noopener noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Aqary CRM
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  Building <span className="text-AAsecondary">Aqary CRM</span>, a{" "}
-                  <span className="text-AAsecondary">real estate management platform</span> powered by{" "}
-                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
-                  <span className="text-AAsecondary">Flask-SocketIO</span> for{" "}
-                  <span className="text-AAsecondary">real-time operations</span>.  
+                  Building <span className="text-AATextPrimary keyword-hover">Aqary CRM</span>, a{" "}
+                  <span className="text-AATextPrimary keyword-hover">real estate management platform</span> powered by{" "}
+                  <span className="text-AATextPrimary keyword-hover">Django REST Framework</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover">Flask-SocketIO</span> for{" "}
+                  <span className="text-AATextPrimary keyword-hover">real-time operations</span>.  
                   It features a scalable{" "}
-                  <span className="text-AAsecondary">microservices architecture</span> with modules like{" "}
-                  <span className="text-AAsecondary">Admin</span>,{" "}
-                  <span className="text-AAsecondary">Notification</span>, and{" "}
-                  <span className="text-AAsecondary">Booking Management</span>, leveraging{" "}
-                  <span className="text-AAsecondary">Celery & Redis</span> for{" "}
-                  <span className="text-AAsecondary">async workflows</span>.  
+                  <span className="text-AATextPrimary keyword-hover">microservices architecture</span> with modules like{" "}
+                  <span className="text-AATextPrimary keyword-hover">Admin</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover">Notification</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover">Booking Management</span>, leveraging{" "}
+                  <span className="text-AATextPrimary keyword-hover">Celery & Redis</span> for{" "}
+                  <span className="text-AATextPrimary keyword-hover">async workflows</span>.  
                   Designed to be a{" "}
-                  <span className="text-AAsecondary">cloud-ready CRM</span> that unites{" "}
-                  <span className="text-AAsecondary">automation</span> with{" "}
-                  <span className="text-AAsecondary">modern real estate operations</span>.
+                  <span className="text-AATextPrimary keyword-hover">cloud-ready CRM</span> that unites{" "}
+                  <span className="text-AATextPrimary keyword-hover">automation</span> with{" "}
+                  <span className="text-AATextPrimary keyword-hover">modern real estate operations</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2"
               >
-                <span className="pr-4 z-10">Python/Flask</span>
-                <span className="pr-4 z-10">PostgreSQL</span>
-                <span className="pr-4 z-10">Celery</span>
-                <span className="pr-4 z-10">RabbitMQ/Redis</span>
-                <span className="pr-4 z-10">WebSocket</span>
-                <span className="pr-4 z-10">Azure ServiceBus</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Flask</span>
+                <span className="pr-4 z-10 keyword-hover">PostgreSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Celery</span>
+                <span className="pr-4 z-10 keyword-hover">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">WebSocket</span>
+                <span className="pr-4 z-10 keyword-hover">Azure ServiceBus</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
               <GithubIcon link="https://github.com/thamjidthachu" />
@@ -237,38 +237,38 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://www.https://id.aqaryone.com/" target="_blank" rel="noopener noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     HRMS - Identity Service
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  Developing the <span className="text-AAsecondary">Aqary Identity Service</span>, the{" "}
-                  <span className="text-AAsecondary">core authentication engine</span> of the{" "}
-                  <span className="text-AAsecondary">Aqary ecosystem</span>.  
+                  Developing the <span className="text-AATextPrimary keyword-hover">Aqary Identity Service</span>, the{" "}
+                  <span className="text-AATextPrimary keyword-hover">core authentication engine</span> of the{" "}
+                  <span className="text-AATextPrimary keyword-hover">Aqary ecosystem</span>.  
                   It handles{" "}
-                  <span className="text-AAsecondary">user onboarding</span>,{" "}
-                  <span className="text-AAsecondary">multi-role access control</span>, and{" "}
-                  <span className="text-AAsecondary">secure token-based authentication</span> across microservices.  
+                  <span className="text-AATextPrimary keyword-hover">user onboarding</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover">multi-role access control</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover">secure token-based authentication</span> across microservices.  
                   Built with{" "}
-                  <span className="text-AAsecondary">Django REST Framework</span> and{" "}
-                  <span className="text-AAsecondary">OAuth2 / JWT</span>, it ensures{" "}
-                  <span className="text-AAsecondary">secure, scalable,</span> and{" "}
-                  <span className="text-AAsecondary">consistent access control</span> across the platform.
+                  <span className="text-AATextPrimary keyword-hover">Django REST Framework</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover">OAuth2 / JWT</span>, it ensures{" "}
+                  <span className="text-AATextPrimary keyword-hover">secure, scalable,</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover">consistent access control</span> across the platform.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python/Flask</span>
-                <span className="pr-4 z-10">PostgreSQL</span>
-                <span className="pr-4 z-10">Celery</span>
-                <span className="pr-4 z-10">RabbitMQ/Redis</span>
-                <span className="pr-4 z-10">GRPC</span>
-                <span className="pr-4 z-10">Azure BusService</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Flask</span>
+                <span className="pr-4 z-10 keyword-hover">PostgreSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Celery</span>
+                <span className="pr-4 z-10 keyword-hover">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">GRPC</span>
+                <span className="pr-4 z-10 keyword-hover">Azure BusService</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/thamjidthachu" />
@@ -315,42 +315,42 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 z-10">
                 <span className="text-gray-400 text-base">Internal Web Application</span>
                 <a href="https://console.aqaryone.com" target={"_blank"} rel="noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     App Console
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  Building the <span className="text-AAsecondary">Aqary App Console</span>, a{" "}
-                  <span className="text-AAsecondary">developer platform</span> for seamless{" "}
-                  <span className="text-AAsecondary">app integration</span> within the{" "}
-                  <span className="text-AAsecondary">Aqary ecosystem</span>.  
+                  Building the <span className="text-AATextPrimary keyword-hover">Aqary App Console</span>, a{" "}
+                  <span className="text-AATextPrimary keyword-hover">developer platform</span> for seamless{" "}
+                  <span className="text-AATextPrimary keyword-hover">app integration</span> within the{" "}
+                  <span className="text-AATextPrimary keyword-hover">Aqary ecosystem</span>.  
                   Built with{" "}
-                  <span className="text-AAsecondary">Flask</span> and{" "}
-                  <span className="text-AAsecondary">SQLAlchemy</span>, it enables{" "}
-                  <span className="text-AAsecondary">OAuth-based app registration</span>,{" "}
-                  <span className="text-AAsecondary">webhooks</span>, and{" "}
-                  <span className="text-AAsecondary">permission management</span> through{" "}
-                  <span className="text-AAsecondary">modular APIs</span>.  
+                  <span className="text-AATextPrimary keyword-hover">Flask</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover">SQLAlchemy</span>, it enables{" "}
+                  <span className="text-AATextPrimary keyword-hover">OAuth-based app registration</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover">webhooks</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover">permission management</span> through{" "}
+                  <span className="text-AATextPrimary keyword-hover">modular APIs</span>.  
                   Supports{" "}
-                  <span className="text-AAsecondary">IP whitelisting</span>,{" "}
-                  <span className="text-AAsecondary">callback validation</span>, and{" "}
-                  <span className="text-AAsecondary">dynamic event mapping</span> to deliver{" "}
-                  <span className="text-AAsecondary">secure, scalable integrations</span>.
+                  <span className="text-AATextPrimary keyword-hover">IP whitelisting</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover">callback validation</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover">dynamic event mapping</span> to deliver{" "}
+                  <span className="text-AATextPrimary keyword-hover">secure, scalable integrations</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python/Flask</span>
-                <span className="pr-4 z-10">Event Driven Architecture</span>
-                <span className="pr-4 z-10">PostgreSQL</span>
-                <span className="pr-4 z-10">Celery</span>
-                <span className="pr-4 z-10">RabbitMQ/Redis</span>
-                <span className="pr-4 z-10">Azure ServiceBus</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Flask</span>
+                <span className="pr-4 z-10 keyword-hover">Event Driven Architecture</span>
+                <span className="pr-4 z-10 keyword-hover">PostgreSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Celery</span>
+                <span className="pr-4 z-10 keyword-hover">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">Azure ServiceBus</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
               <GithubIcon link="https://github.com/thamjidthachu" />
@@ -397,36 +397,36 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://www.https://aqaryaid.com/" target="_blank" rel="noopener noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Aqary API Gateway
                   </span>
                 </a>
               </div>
             <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
               <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                Architected the <span className="text-AAsecondary">Aqary API Gateway</span> as the{" "}
-                <span className="text-AAsecondary">central entry point</span> for all{" "}
-                <span className="text-AAsecondary">Aqary microservices</span>.  
+                Architected the <span className="text-AATextPrimary keyword-hover">Aqary API Gateway</span> as the{" "}
+                <span className="text-AATextPrimary keyword-hover">central entry point</span> for all{" "}
+                <span className="text-AATextPrimary keyword-hover">Aqary microservices</span>.  
                 Built with{" "}
-                <span className="text-AAsecondary">Flask</span> and{" "}
-                <span className="text-AAsecondary">Nginx</span>, it manages{" "}
-                <span className="text-AAsecondary">routing</span>,{" "}
-                <span className="text-AAsecondary">authentication</span>,{" "}
-                <span className="text-AAsecondary">rate limiting</span>, and{" "}
-                <span className="text-AAsecondary">service-level security</span>.  
+                <span className="text-AATextPrimary keyword-hover">Flask</span> and{" "}
+                <span className="text-AATextPrimary keyword-hover">Nginx</span>, it manages{" "}
+                <span className="text-AATextPrimary keyword-hover">routing</span>,{" "}
+                <span className="text-AATextPrimary keyword-hover">authentication</span>,{" "}
+                <span className="text-AATextPrimary keyword-hover">rate limiting</span>, and{" "}
+                <span className="text-AATextPrimary keyword-hover">service-level security</span>.  
                 Integrated with the{" "}
-                <span className="text-AAsecondary">Identity Service</span> for{" "}
-                <span className="text-AAsecondary">JWT validation</span> and{" "}
-                <span className="text-AAsecondary">RBAC</span>, featuring{" "}
-                <span className="text-AAsecondary">centralized logging</span> and{" "}
-                <span className="text-AAsecondary">dynamic service discovery</span> for{" "}
-                <span className="text-AAsecondary">high availability</span> and{" "}
-                <span className="text-AAsecondary">scalability</span>.
+                <span className="text-AATextPrimary keyword-hover">Identity Service</span> for{" "}
+                <span className="text-AATextPrimary keyword-hover">JWT validation</span> and{" "}
+                <span className="text-AATextPrimary keyword-hover">RBAC</span>, featuring{" "}
+                <span className="text-AATextPrimary keyword-hover">centralized logging</span> and{" "}
+                <span className="text-AATextPrimary keyword-hover">dynamic service discovery</span> for{" "}
+                <span className="text-AATextPrimary keyword-hover">high availability</span> and{" "}
+                <span className="text-AATextPrimary keyword-hover">scalability</span>.
               </p>
             </div>
               <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end">
-                <span className="pr-4 z-10">Python/Flask</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Flask</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/thamjidthachu" />
@@ -473,37 +473,37 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 z-10">
                 <span className="text-gray-400 text-base">Internal Web Application.</span>
                 <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     HRMS - Aqary One
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                    At <span className="text-AAsecondary">Aqary Investments and Development</span>, I built{" "}
-                    <span className="text-AAsecondary">real-time notification services</span> using{" "}
-                    <span className="text-AAsecondary">Webhooks</span> and{" "}
-                    <span className="text-AAsecondary">WebSockets</span> to boost system responsiveness.  
+                    At <span className="text-AATextPrimary keyword-hover">Aqary Investments and Development</span>, I built{" "}
+                    <span className="text-AATextPrimary keyword-hover">real-time notification services</span> using{" "}
+                    <span className="text-AATextPrimary keyword-hover">Webhooks</span> and{" "}
+                    <span className="text-AATextPrimary keyword-hover">WebSockets</span> to boost system responsiveness.  
                     Also developed an{" "}
-                    <span className="text-AAsecondary">AI-powered HRMS</span> with{" "}
-                    <span className="text-AAsecondary">ATS screening</span>,{" "}
-                    <span className="text-AAsecondary">chatbot support</span>, and{" "}
-                    <span className="text-AAsecondary">biometric automation</span> using{" "}
-                    <span className="text-AAsecondary">Flask</span> and{" "}
-                    <span className="text-AAsecondary">event-driven architecture</span>, improving{" "}
-                    <span className="text-AAsecondary">HR workflows</span> and{" "}
-                    <span className="text-AAsecondary">employee experience</span>.
+                    <span className="text-AATextPrimary keyword-hover">AI-powered HRMS</span> with{" "}
+                    <span className="text-AATextPrimary keyword-hover">ATS screening</span>,{" "}
+                    <span className="text-AATextPrimary keyword-hover">chatbot support</span>, and{" "}
+                    <span className="text-AATextPrimary keyword-hover">biometric automation</span> using{" "}
+                    <span className="text-AATextPrimary keyword-hover">Flask</span> and{" "}
+                    <span className="text-AATextPrimary keyword-hover">event-driven architecture</span>, improving{" "}
+                    <span className="text-AATextPrimary keyword-hover">HR workflows</span> and{" "}
+                    <span className="text-AATextPrimary keyword-hover">employee experience</span>.
                 </p>
               </div>
               <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2">
-                <span className="pr-4 z-10">Python/Flask</span>
-                <span className="pr-4 z-10">PyTorch</span>
-                <span className="pr-4 z-10">Transformers</span>
-                <span className="pr-4 z-10">Google Generative AI</span>
-                <span className="pr-4 z-10">PostgreSQL</span>
-                <span className="pr-4 z-10">Docker</span>
-                <span className="pr-4 z-10">Celery</span>
-                <span className="pr-4 z-10">RabbitMQ/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Flask</span>
+                <span className="pr-4 z-10 keyword-hover">PyTorch</span>
+                <span className="pr-4 z-10 keyword-hover">Transformers</span>
+                <span className="pr-4 z-10 keyword-hover">Google Generative AI</span>
+                <span className="pr-4 z-10 keyword-hover">PostgreSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Celery</span>
+                <span className="pr-4 z-10 keyword-hover">RabbitMQ/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5">
                 <a href="https://people.aqaryone.com/" target={"_blank"} rel="noreferrer">
@@ -552,7 +552,7 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-gray-400 text-base">Travel and Tourism</span>
                 <a href="https://www.exploreworld.com/" target="_blank" rel="noopener noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Explore World
                   </span>
                 </a>
@@ -560,12 +560,12 @@ export default function SomethingIveBuilt() {
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   I had the opportunity to spearhead the backend development of a travel aggregator platform, leveraging a{" "}
-                  <span className="text-AAsecondary"> microservices architecture</span>. My focus was on integrating{" "}
-                  <span className="text-AAsecondary"> payment gateways</span> and{" "}
-                  <span className="text-AAsecondary"> third-party APIs</span> such as{" "}
-                  <span className="text-AAsecondary"> Elasticsearch</span>, ensuring a{" "}
-                  <span className="text-AAsecondary"> scalable architecture</span> for smooth transactions and an enhanced{" "}
-                  <span className="text-AAsecondary"> user experience</span>.
+                  <span className="text-AATextPrimary keyword-hover"> microservices architecture</span>. My focus was on integrating{" "}
+                  <span className="text-AATextPrimary keyword-hover"> payment gateways</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> third-party APIs</span> such as{" "}
+                  <span className="text-AATextPrimary keyword-hover"> Elasticsearch</span>, ensuring a{" "}
+                  <span className="text-AATextPrimary keyword-hover"> scalable architecture</span> for smooth transactions and an enhanced{" "}
+                  <span className="text-AATextPrimary keyword-hover"> user experience</span>.
                 </p>
 
               </div>
@@ -573,12 +573,12 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">Elastic Search</span>
-                <span className="pr-4 z-10">Django Rest Framework</span>
-                <span className="pr-4 z-10">Postgres</span>
-                <span className="pr-4 z-10">Docker</span>
-                <span className="pr-4 z-10">Celery/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Django</span>
+                <span className="pr-4 z-10 keyword-hover">Elastic Search</span>
+                <span className="pr-4 z-10 keyword-hover">Django Rest Framework</span>
+                <span className="pr-4 z-10 keyword-hover">Postgres</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
@@ -627,7 +627,7 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 z-10">
                 <span className="text-gray-400 text-base">CRM & Inventory Management</span>
                 <a href="https://www.wearlay.in/" target="_blank" rel="noopener noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Wearlay
                   </span>
                 </a>
@@ -635,12 +635,12 @@ export default function SomethingIveBuilt() {
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
                   I led the backend development of a CRM & Inventory system, built with{" "}
-                  <span className="text-AAsecondary"> Django</span> and{" "}
-                  <span className="text-AAsecondary"> Django REST Framework</span>. The platform automated{" "}
-                  <span className="text-AAsecondary"> lead workflows</span> and optimized{" "}
-                  <span className="text-AAsecondary"> warehouse management</span>, while a customized{" "}
-                  <span className="text-AAsecondary"> Django Admin</span> with integrated{" "}
-                  <span className="text-AAsecondary"> analytics</span> enabled data-driven decision making for improved business operations.
+                  <span className="text-AATextPrimary keyword-hover"> Django</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> Django REST Framework</span>. The platform automated{" "}
+                  <span className="text-AATextPrimary keyword-hover"> lead workflows</span> and optimized{" "}
+                  <span className="text-AATextPrimary keyword-hover"> warehouse management</span>, while a customized{" "}
+                  <span className="text-AATextPrimary keyword-hover"> Django Admin</span> with integrated{" "}
+                  <span className="text-AATextPrimary keyword-hover"> analytics</span> enabled data-driven decision making for improved business operations.
                 </p>
 
               </div>
@@ -648,11 +648,11 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2"
               >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">Django Rest Framework</span>
-                <span className="pr-4 z-10">PostgresSQL</span>
-                <span className="pr-4 z-10">Docker</span>
-                <span className="pr-4 z-10">Celery/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Django</span>
+                <span className="pr-4 z-10 keyword-hover">Django Rest Framework</span>
+                <span className="pr-4 z-10 keyword-hover">PostgresSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <a href="https://www.wearlay.in/" target={"_blank"} rel="noreferrer">
@@ -699,7 +699,7 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-gray-400 text-base">Learning & Management System</span>
                 <Link href="https://my.um.edu.sa/">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Al Maarefa
                   </span>
                 </Link>
@@ -707,30 +707,30 @@ export default function SomethingIveBuilt() {
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   I led the backend development of a role-based{" "}
-                  <span className="text-AAsecondary"> academic platform</span> designed for{" "}
-                  <span className="text-AAsecondary"> students</span>,{" "}
-                  <span className="text-AAsecondary"> instructors</span>, and{" "}
-                  <span className="text-AAsecondary"> admins</span>. The system included{" "}
-                  <span className="text-AAsecondary"> academic tracking</span>,{" "}
-                  <span className="text-AAsecondary"> messaging</span>, and{" "}
-                  <span className="text-AAsecondary"> payment management</span>. I also developed an{" "}
-                  <span className="text-AAsecondary"> online admission system</span>, centralizing{" "}
-                  <span className="text-AAsecondary"> registration</span>,{" "}
-                  <span className="text-AAsecondary"> document upload</span>, and{" "}
-                  <span className="text-AAsecondary"> interview processes</span>, improving efficiency for both{" "}
-                  <span className="text-AAsecondary"> applicants</span> and{" "}
-                  <span className="text-AAsecondary"> staff</span>.
+                  <span className="text-AATextPrimary keyword-hover"> academic platform</span> designed for{" "}
+                  <span className="text-AATextPrimary keyword-hover"> students</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover"> instructors</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> admins</span>. The system included{" "}
+                  <span className="text-AATextPrimary keyword-hover"> academic tracking</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover"> messaging</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> payment management</span>. I also developed an{" "}
+                  <span className="text-AATextPrimary keyword-hover"> online admission system</span>, centralizing{" "}
+                  <span className="text-AATextPrimary keyword-hover"> registration</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover"> document upload</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> interview processes</span>, improving efficiency for both{" "}
+                  <span className="text-AATextPrimary keyword-hover"> applicants</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> staff</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">Django Rest Framework</span>
-                <span className="pr-4 z-10">PostgresSQL</span>
-                <span className="pr-4 z-10">Docker</span>
-                <span className="pr-4 z-10">Celery/Redis</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Django</span>
+                <span className="pr-4 z-10 keyword-hover">Django Rest Framework</span>
+                <span className="pr-4 z-10 keyword-hover">PostgresSQL</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Celery/Redis</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/flycatchinfotech/al-maarefa-backend" />
@@ -775,7 +775,7 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 z-10">
                 <span className="text-gray-400 text-base">Hospitality Management</span>
                 <Link href={"https://my.away2gether.com"}>
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Away2gether
                   </span>
                 </Link>
@@ -783,17 +783,17 @@ export default function SomethingIveBuilt() {
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
                   I solely developed the backend of a{" "}
-                  <span className="text-AAsecondary"> hospitality platform</span> using{" "}
-                  <span className="text-AAsecondary"> Django</span>,{" "}
-                  <span className="text-AAsecondary"> Django CMS</span>, and{" "}
-                  <span className="text-AAsecondary"> PostgreSQL</span>. The platform enhanced{" "}
-                  <span className="text-AAsecondary"> user experience</span> through{" "}
-                  <span className="text-AAsecondary"> interactive elements</span> built with{" "}
-                  <span className="text-AAsecondary"> AJAX</span> and{" "}
-                  <span className="text-AAsecondary"> JavaScript</span>. I also ensured{" "}
-                  <span className="text-AAsecondary"> scalability</span> and{" "}
-                  <span className="text-AAsecondary"> data integrity</span>, laying the foundation for future{" "}
-                  <span className="text-AAsecondary"> enhancements</span>.
+                  <span className="text-AATextPrimary keyword-hover"> hospitality platform</span> using{" "}
+                  <span className="text-AATextPrimary keyword-hover"> Django</span>,{" "}
+                  <span className="text-AATextPrimary keyword-hover"> Django CMS</span>, and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> PostgreSQL</span>. The platform enhanced{" "}
+                  <span className="text-AATextPrimary keyword-hover"> user experience</span> through{" "}
+                  <span className="text-AATextPrimary keyword-hover"> interactive elements</span> built with{" "}
+                  <span className="text-AATextPrimary keyword-hover"> AJAX</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> JavaScript</span>. I also ensured{" "}
+                  <span className="text-AATextPrimary keyword-hover"> scalability</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> data integrity</span>, laying the foundation for future{" "}
+                  <span className="text-AATextPrimary keyword-hover"> enhancements</span>.
                 </p>
 
               </div>
@@ -801,12 +801,12 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2"
               >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">CMS</span>
-                <span className="pr-4 z-10">PostgresSQL</span>
-                <span className="pr-4 z-10">html/css</span>
-                <span className="pr-4 z-10">Javascript</span>
-                <span className="pr-4 z-10">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Django</span>
+                <span className="pr-4 z-10 keyword-hover">CMS</span>
+                <span className="pr-4 z-10 keyword-hover">PostgresSQL</span>
+                <span className="pr-4 z-10 keyword-hover">html/css</span>
+                <span className="pr-4 z-10 keyword-hover">Javascript</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/flycatchinfotech/awaytogether-website" />
@@ -833,7 +833,7 @@ export default function SomethingIveBuilt() {
               </a>
 
               <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 z-10">
-                <span className="text-AAsecondary text-xs">🧱 On Hold...</span>
+                <span className="text-AATextPrimary keyword-hover text-xs">🧱 On Hold...</span>
               </div>
 
               <Img src={"/projects/redalion.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -851,7 +851,7 @@ export default function SomethingIveBuilt() {
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8 md:hidden">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">On hold...</span>
+              <span className="text-AATextPrimary keyword-hover sm:text-lg bg-AAprimary px-2 py-1 rounded">On hold...</span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-7 xl:col-start-6 3xl:col-span-7 3xl:col-start-6 4xl:col-span-8 4xl:col-start-6 col-start-5 
@@ -860,7 +860,7 @@ export default function SomethingIveBuilt() {
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-gray-400 text-base">Innovative E-Commerce Platform</span>
                 <a href="https://www.redalion.com" target={"_blank"} rel="noreferrer">
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                  <span className=" md:text-gray-200 text-AATextPrimary keyword-hover font-bold text-xl hover:cursor-pointer">
                     Redalion
                   </span>
                 </a>
@@ -868,25 +868,25 @@ export default function SomethingIveBuilt() {
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   I led the backend development of a platform that links{" "}
-                  <span className="text-AAsecondary"> QR-coded medallions</span> to{" "}
-                  <span className="text-AAsecondary"> digital ancestral profiles</span>, featuring{" "}
-                  <span className="text-AAsecondary"> secure authentication</span> and{" "}
-                  <span className="text-AAsecondary"> profile management</span>. The system was built with a focus on{" "}
-                  <span className="text-AAsecondary"> scalability</span> and{" "}
-                  <span className="text-AAsecondary"> clean code</span>, ensuring a solid foundation for{" "}
-                  <span className="text-AAsecondary"> future enhancements</span>.
+                  <span className="text-AATextPrimary keyword-hover"> QR-coded medallions</span> to{" "}
+                  <span className="text-AATextPrimary keyword-hover"> digital ancestral profiles</span>, featuring{" "}
+                  <span className="text-AATextPrimary keyword-hover"> secure authentication</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> profile management</span>. The system was built with a focus on{" "}
+                  <span className="text-AATextPrimary keyword-hover"> scalability</span> and{" "}
+                  <span className="text-AATextPrimary keyword-hover"> clean code</span>, ensuring a solid foundation for{" "}
+                  <span className="text-AATextPrimary keyword-hover"> future enhancements</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Python/Django</span>
-                <span className="pr-4 z-10">PostgresSQL</span>
-                <span className="pr-4 z-10">html/css</span>
-                <span className="pr-4 z-10">Javascript</span>
-                <span className="pr-4 z-10">Docker</span>
-                <span className="pr-4 z-10">Stripe</span>
+                <span className="pr-4 z-10 keyword-hover">Python/Django</span>
+                <span className="pr-4 z-10 keyword-hover">PostgresSQL</span>
+                <span className="pr-4 z-10 keyword-hover">html/css</span>
+                <span className="pr-4 z-10 keyword-hover">Javascript</span>
+                <span className="pr-4 z-10 keyword-hover">Docker</span>
+                <span className="pr-4 z-10 keyword-hover">Stripe</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
               <GithubIcon link="https://github.com/flycatchinfotech/redalion" />

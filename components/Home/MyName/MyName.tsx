@@ -24,7 +24,7 @@ const MyName: React.FC<MyNameProps> = props => {
         }}
         className="text-AATextSecondary font-mono text-lg tracking-widest"
       >
-        Hi, the name is
+        The name is
       </motion.span>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}

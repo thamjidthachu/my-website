@@ -32,30 +32,36 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
           {/* Text Content */}
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm">
           <div className="font-Header text-AATextMuted text-justify leading-relaxed">
-            Hey there! I&apos;m Thamjid, an <span className="text-AATextPrimary font-medium">AI-focused Python Developer</span>
-            who loves <span className="text-AATextPrimary font-medium">building scalable and intelligent digital solutions</span>.
-            My journey started with a passion for programming and has grown into over
-            <span className="text-AATextPrimary font-medium">4 years of professional experience</span> crafting web applications and
-            data-driven platforms using Django, Flask, and modern AI tools.
+            Hey there! I&apos;m <span className="text-AATextPrimary font-medium keyword-hover">Thamjid</span>, an{' '}
+            <span className="text-AATextPrimary font-medium keyword-hover">AI-focused Python Developer</span>{' '}
+            who loves building <span className="text-AATextPrimary font-medium keyword-hover">scalable</span>{' '}and{' '}
+            <span className="text-AATextPrimary font-medium keyword-hover">intelligent</span>{' '}digital solutions.{' '}
+            My journey started with a passion for programming and has grown into over{' '}
+            <span className="text-AATextPrimary font-medium keyword-hover">4 years of professional experience</span>{' '}
+            crafting web applications and data-driven platforms using{' '}
+            <span className="text-AATextPrimary font-medium keyword-hover">Django</span>,{' '}
+            <span className="text-AATextPrimary font-medium keyword-hover">Flask</span>, and{' '}
+            <span className="text-AATextPrimary font-medium keyword-hover">modern AI tools</span>.
           </div>
           <div className="font-Header text-AATextMuted text-justify leading-relaxed">
             Over the years, I&apos;ve had the opportunity to work across diverse domains, from{" "}
-            <span className="text-gray-900 font-medium">HR management systems</span> and{" "}
-            <span className="text-gray-900 font-medium">travel & hospitality platforms</span> to{" "}
-            <span className="text-gray-900 font-medium">university registration and learning systems</span> and{" "}
-            <span className="text-gray-900 font-medium">e-commerce</span>. Currently, I&apos;m working as an{" "}
-            <span className="text-gray-900 font-medium">AI/ML Engineer</span> in Abu Dhabi, where I integrate intelligent systems like{" "}
-            <span className="text-gray-900 font-medium">resume parsing</span>,{" "}
-            <span className="text-gray-900 font-medium">ATS checks</span>, and{" "}
-            <span className="text-gray-900 font-medium">chatbots</span> to enhance enterprise platforms.
+            <span className="text-AATextPrimary font-medium keyword-hover">inventory & CRM systems</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">HR management systems</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">travel & hospitality platforms</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">university registration & learning systems</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">e-commerce</span> etc. Currently, I&apos;m working as an{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">AI/ML Engineer</span> in Abu Dhabi, where I integrate intelligent systems like{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">resume parsing</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">ATS checks</span>, and{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">chatbots</span> to enhance enterprise platforms.
           </div>
           <div className="font-Header text-AATextMuted text-justify leading-relaxed">
-            Some of my favorite projects include <span className="text-gray-900 font-medium">Wearlay</span>, an inventory and CRM
-            system, <span className="text-gray-900 font-medium">Explore World</span>, a large-scale tourism aggregator, and{" "}
-            <span className="text-gray-900 font-medium">Redalion</span>, an e-commerce platform linking QR-coded medallions to
+            Some of my favorite projects include <span className="text-AATextPrimary font-medium keyword-hover">Wearlay</span>, an inventory and CRM
+            system, <span className="text-AATextPrimary font-medium keyword-hover">Explore World</span>, a large-scale tourism aggregator, and{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">Redalion</span>, an e-commerce platform linking QR-coded medallions to
             digital ancestral profiles. Each project has pushed me to design{" "}
-            <span className="text-gray-900 font-medium">scalable architectures</span> and deliver{" "}
-            <span className="text-gray-900 font-medium">user-focused solutions</span>.
+            <span className="text-AATextPrimary font-medium keyword-hover">scalable architectures</span> and deliver{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">user-focused solutions</span>.
           </div>
           <div className="font-Header tracking-wide text-AATextMuted pt-2 pb-1 text-justify">
             Here&apos;s what I&apos;m usually working with these days:
@@ -74,12 +80,12 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             ))}
           </div>
           <div className="font-Header text-AATextMuted pt-4 text-justify leading-relaxed">
-            Whether it&apos;s <span className="text-AATextPrimary font-medium">AI-driven platforms</span>,{" "}
-            <span className="text-AATextPrimary font-medium">microservices-based applications</span>, or{" "}
-            <span className="text-AATextPrimary font-medium">innovative data solutions</span>, I&apos;m always up for the next challenge that
-            blends <span className="text-AATextPrimary font-medium">technology</span>,{" "}
-            <span className="text-AATextPrimary font-medium">creativity</span>, and{" "}
-            <span className="text-AATextPrimary font-medium">impact</span>.
+            Whether it&apos;s <span className="text-AATextPrimary font-medium keyword-hover">AI-driven platforms</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">microservices-based applications</span>, or{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">innovative data solutions</span>, I&apos;m always up for the next challenge that
+            blends <span className="text-AATextPrimary font-medium keyword-hover">technology</span>,{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">creativity</span>, and{" "}
+            <span className="text-AATextPrimary font-medium keyword-hover">impact</span>.
           </div>
         </div>
 
