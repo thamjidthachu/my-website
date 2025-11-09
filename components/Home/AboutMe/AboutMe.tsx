@@ -32,13 +32,14 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
           {/* Text Content */}
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm">
           <div className="font-Header text-AATextMuted text-justify leading-relaxed">
-            Hey there! I&apos;m Thamjid, an <span className="text-AATextPrimary font-medium">AI-focused Python Developer</span> who loves
-            building scalable and intelligent digital solutions. My journey started with a passion for programming and has
-            grown into over <span className="text-AATextPrimary font-medium">4 years of professional experience</span> crafting web
-            applications and data-driven platforms using Django, Flask, and modern AI tools.
+            Hey there! I&apos;m Thamjid, an <span className="text-AATextPrimary font-medium">AI-focused Python Developer</span>
+            who loves <span className="text-AATextPrimary font-medium">building scalable and intelligent digital solutions</span>.
+            My journey started with a passion for programming and has grown into over
+            <span className="text-AATextPrimary font-medium">4 years of professional experience</span> crafting web applications and
+            data-driven platforms using Django, Flask, and modern AI tools.
           </div>
-          <div className="font-Header text-gray-700 text-justify leading-relaxed">
-            Over the years, I&apos;ve had the opportunity to work across diverse domains – from{" "}
+          <div className="font-Header text-AATextMuted text-justify leading-relaxed">
+            Over the years, I&apos;ve had the opportunity to work across diverse domains, from{" "}
             <span className="text-gray-900 font-medium">HR management systems</span> and{" "}
             <span className="text-gray-900 font-medium">travel & hospitality platforms</span> to{" "}
             <span className="text-gray-900 font-medium">university registration and learning systems</span> and{" "}
@@ -48,7 +49,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
             <span className="text-gray-900 font-medium">ATS checks</span>, and{" "}
             <span className="text-gray-900 font-medium">chatbots</span> to enhance enterprise platforms.
           </div>
-          <div className="font-Header text-gray-700 text-justify leading-relaxed">
+          <div className="font-Header text-AATextMuted text-justify leading-relaxed">
             Some of my favorite projects include <span className="text-gray-900 font-medium">Wearlay</span>, an inventory and CRM
             system, <span className="text-gray-900 font-medium">Explore World</span>, a large-scale tourism aggregator, and{" "}
             <span className="text-gray-900 font-medium">Redalion</span>, an e-commerce platform linking QR-coded medallions to
