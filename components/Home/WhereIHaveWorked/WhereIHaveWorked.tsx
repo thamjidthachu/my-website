@@ -19,7 +19,7 @@ type WorkExperience = {
 const experiences: WorkExperience[] = [
   {
     id: "Aqary",
-    companyName: "Aqary Investment and Development",
+    companyName: "Aqary Holding Limited ADGM",
     position: "AI ML Engineer",
     location: "Abu Dhabi, UAE",
     date: "May 2025 - Present",
@@ -85,7 +85,7 @@ const experiences: WorkExperience[] = [
     id: "Quest",
     companyName: "Quest Innovative Solutions",
     position: "Software Engineer Intern",
-    location: "Quest Innovative Solutions, Kochi, Kerala",
+    location: "Kochi, Kerala",
     date: "Sep 2021 – Mar 2022",
     url: "https://www.qis.co.in/",
     tasks: [
